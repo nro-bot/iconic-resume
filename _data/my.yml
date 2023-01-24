@@ -1,9 +1,147 @@
-name: jekyll
+name: >-
+  Rui Ouyang: 
+  Entrepreneurial Researcher & Computer Scientist
 
 headline: >-
-  Passionate about identifying and creatively addressing societal
-  challenges with 7+ years of technical expertise in wide-ranging fields
-  from genomics to counter-human trafficking.
+  I'm a graduate researcher applying machine learning to counter-human
+  trafficking. My passion lies in identifying and creatively addressing
+  societal challenges. I have 7+ years of technical expertise in
+  wide-ranging fields from genomics to robotics and more.
+
+  #keypoints: >-
+  #- point: Combined software and hardware research expertise leading to MIT
+  #News coverage and first author publication in prominent robotics venue 
+  #- point: Entrepreneurial and grant-writing skills resulting in >$45k of sales and funding 
+defaultloc: Cambridge, MA
+
+
+########### Experience (optional)
+# researchexperience:
+experience:
+  -
+    icon: 
+    lab: MIT Sloan Applied Economics Group (Prof. Roberto Rigobon)
+    loc: 
+    time: 2020 ~ now &middot; 2yrs
+    description: >-
+      * NLP & Iliicit Massage Industry *
+      Trained natural language processing (NLP) machine learning (ML)
+      models on Google Places review text in order to flag massage parlors.
+      Explored spatiotemporal trends in the size of the illicit massage
+      industry. In collaboration with The Network Team, IBM Technology for
+      Good, and Stop the Traffik.
+
+  -
+    icon: 
+    lab: MIT Perceptual Science Group (Prof. Edward Adelson) 
+    loc: 
+    time: 2020 &middot; 1yr
+    description: >-
+      Developed tactile sensor for buried objects. My work in 3D
+      prototyping and image-based object detectionwith Pytorch led to an
+      MIT news article & second-author publication in ISER 2020.
+  -
+    icon: 
+    lab: Harvard Biomimetics Lab (Prof. Robert Howe)
+    loc: 
+    time: 2018  &middot; 1yr
+    description: >-
+      Designed and characterized novel vision-based force sensor using
+      arucoTags and openCV,leading to first-author publication in ICRA 2020.
+
+# industryexperience
+  - category: industry 
+    icon: 
+    role: Doctoral Intern
+    company: Scotiabank 
+    loc: 
+    time: 2021 ~ 2022 &middot; 2yrs
+    description: >-
+
+  - category: industry 
+    icon: 
+    company: Manylabs, Inc. (Office of Naval Research grant)
+    loc: 
+    time: 2014 ~ 2015  &middot; 1yr
+    description: >-
+      Created OpenAI gym reinforcement learning environment to test
+      planning algorithms for ocean buoys that use depth-dependent currents
+      for control
+
+  -
+    category: industry 
+    icon: 
+    company: Curoverse 
+    loc: 
+    time: 2014 ~ 2015  &middot; 1yr
+    description: >-
+        Developed privacy-respecting Python Flask webapps to expose genomic
+        data for inter-institute analysis for publication. Contributed to
+        Arvados platform documentation as part of Agile engineering team,
+        as well as liased with the Global Alliance for Genomics and Health
+        (GA4GH) and Personal Genome Project (PGP).
+
+  -
+    category: industry 
+    icon: 
+    company: NarwhalEdu 
+    loc: 
+    time: 2013 ~ 2014  &middot; 1yr
+    description: >-
+      Founded startup to address gap in access to low-cost robotics
+      education in high schools. Created an onlineEdX class paired with a
+      custom drawing robot arm kit. My entrepreneurial and grant-writing
+      skills led to >$45k in funding and sales in our first year.
+      #$20k+ of Kickstarter sales reaching ~100 students in six countries. 
+      Product delivered on-time and on-budget, including
+      lasercutter contract manufacturing and custom circuit boards.
+
+      #Graduate of MIT Global Founder's Skills
+      #Accelerator 2013. 
+
+
+#-----------
+#
+#Harvard University – CS109a Intro to Data Science – Teaching Fellow 	           	  Aug – Dec 2021
+#NarwhalEdu – Founder 	       Jun 2013 – Sep 2014
+
+########### Publications (optional)
+publication:
+  -
+    title: 'Digger Finger: GelSight Tactile Sensor for Object Identification Inside Granular Media'
+    author: Radhen Patel, Rui Ouyang, Branden Romero, Edward Adelson 
+    journal: International Symposium on Experimental Robotics (ISER) 
+    year: 2020
+    link: 'http://arxiv.org/'
+  -
+    title: low cost fifudical sensor 
+    author: Josh Lee
+    journal: International Conference on Learning Representations (ICLR)
+    year: 2021
+    link: 'http://arxiv.org/'
+
+########### Projects (optional)
+project:
+  -
+    icon: github.svg
+    name: awesome-project-one
+    link: 'https://github.com/'
+    description: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
+  -
+    icon: github.svg
+    name: awesome-project-two
+    link: 'https://github.com/'
+    description: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
+
+#AWARDS
+#Google Techmakers Scholarship		            Aug 2018
+
+#LEADERSHIP
+#Hackathon for Feminism (Hack4Fem) – Founder, organizer of event with >40 attendees                	    May 2015
+#MIT Electronics Research Society–President, student-run machine shop/makerspace 		   Feb 2012–2013
+
 
 contact:
   -
@@ -116,9 +254,10 @@ education:
   -
     icon: harvard.png
     school: Harvard University
-    degree: PhD in Computer Science
+    degree: PhD Candidate in Computer Science
     loc: Cambridge, MA
-    time: 2018 ~ Present 
+    time: "2017 ~ now &middot; 4 yrs "
+
   -
     icon: harvard.png
     school: Harvard University
@@ -136,75 +275,10 @@ education:
     school: Massachusetts Institute of Technology
     degree: BS in Mechanical Engineering 
     loc: Cambridge, MA 
-    time: 2009 ~ 2013 #&middot; 4 yrs
+    time: 2009 ~ 2013 &middot; 4 yrs
     #description: >-
       #GPA: 4.0/4.0
       #<br>
       #Other information here.
 
-########### Experience (optional)
-experience:
-  -
-    icon: google.png
-    company: Google
-    role: Machine Learning Engineer
-    loc: Mountain View, CA
-    time: 2022 ~ now
-    description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Cras ultricies feugiat vehicula. Aenean nulla ipsum, sagittis ac felis vitae, facilisis maximus justo. Nunc ipsum ex, molestie vel velit eu, aliquet posuere velit. In dignissim volutpat ante, non lacinia eros egestas non. Mauris hendrerit orci sit amet metus facilisis, nec sollicitudin justo consectetur. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
-  -
-    icon: amazon.png
-    company: Amazon
-    role: Software Developer
-    loc: Seattle, WA
-    time: 2020 ~ 2022 &middot; 2yrs
-    description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Cras ultricies feugiat vehicula. Aenean nulla ipsum, sagittis ac felis vitae, facilisis maximus justo. Nunc ipsum ex, molestie vel velit eu, aliquet posuere velit. In dignissim volutpat ante, non lacinia eros egestas non. Mauris hendrerit orci sit amet metus facilisis, nec sollicitudin justo consectetur. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
-
-#Harvard University – CS109a Intro to Data Science – Teaching Fellow 	           	  Aug – Dec 2021
-
-#Curoverse – Researcher (under Alexander Wait Zaranek)	 	      Sep 2014 – Dec 2015
-#Facilitated data sharing, e.g. creating Python Flask webapps to expose open source genomic data.
-
-#MIT Office of Digital Learning – Contractor, MIT EECS, prototypes for robotics lab  	  	 Jan – May 2014
-
-#NarwhalEdu – Founder 	       Jun 2013 – Sep 2014
-#Reached nearly 100 students with over $20k of Kickstarter sales in our first year. Accepted to Global Founder's Skills Accelerator 2013. Designed drawing robot arm kit with online curriculum as an intro to engineering EdX (online) class. I did curriculum design, lasercutter contract manufacturing, custom single-sided PCB design, etc.
-
-########### Publications (optional)
-publication:
-  -
-    title: 'Digger Finger: GelSight Tactile Sensor for Object Identification Inside Granular Media'
-    author: Radhen Patel, Rui Ouyang, Branden Romero, Edward Adelson 
-    journal: International Symposium on Experimental Robotics (ISER) 
-    year: 2020
-    link: 'http://arxiv.org/'
-  -
-    title: low cost fifudical sensor 
-    author: Josh Lee
-    journal: International Conference on Learning Representations (ICLR)
-    year: 2021
-    link: 'http://arxiv.org/'
-
-########### Projects (optional)
-project:
-  -
-    icon: github.svg
-    name: awesome-project-one
-    link: 'https://github.com/'
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
-  -
-    icon: github.svg
-    name: awesome-project-two
-    link: 'https://github.com/'
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
-
-#AWARDS
-#Google Techmakers Scholarship		            Aug 2018
-
-#LEADERSHIP
-#Hackathon for Feminism (Hack4Fem) – Founder, organizer of event with >40 attendees                	    May 2015
-#MIT Electronics Research Society–President, student-run machine shop/makerspace 		   Feb 2012–2013
 
