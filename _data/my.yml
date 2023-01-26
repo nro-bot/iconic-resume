@@ -19,7 +19,7 @@ defaultloc: Cambridge, MA
 # researchexperience:
 experience:
   -
-    icon: 
+    icon: sloan.jpg
     company: MIT Sloan Applied Economics Group (Prof. Roberto Rigobon)
     loc: 
     time: 2020 ~ now &middot; 2yrs
@@ -32,7 +32,7 @@ experience:
       Good, and Stop the Traffik.
 
   -
-    icon: 
+    icon: csail_wikipedia.png 
     company: MIT Perceptual Science Group (Prof. Edward Adelson) 
     loc: 
     time: 2020 &middot; 1yr
@@ -42,8 +42,8 @@ experience:
       with Pytorch led to an MIT news article & second-author publication
       in ISER 2020 (see Publications).
   -
-    icon: 
-    company: Harvard Biomimetics Lab (Prof. Robert Howe)
+    icon: harvard_seas.jpg 
+    company: Harvard Biorobotics Lab (Prof. Robert Howe)
     loc: 
     time: 2018  &middot; 1yr
     description: >-
@@ -52,7 +52,7 @@ experience:
 
 # industryexperience
   - 
-    icon: 
+    icon: scotiabank.png 
     role: Doctoral Intern (part-time)
     company: Scotiabank 
     loc: 
@@ -63,7 +63,7 @@ experience:
       accounts for counter-trafficking work.
 
   - 
-    icon: 
+    icon: manylabs.png 
     role: Contract Scientist
     company: Manylabs, Inc. (Office of Naval Research grant)
     loc: 
@@ -74,7 +74,7 @@ experience:
       for control
 
   -
-    icon: 
+    icon: curoverse.jpg
     company: Curoverse 
     loc: 
     time: 2014 ~ 2015  &middot; 1yr
@@ -87,7 +87,7 @@ experience:
 #(GA4GH) and Personal Genome Project (PGP).
 
   -
-    icon: 
+    icon: narwhaledu.png 
     company: NarwhalEdu 
     loc: 
     time: 2013 ~ 2014  &middot; 1yr
@@ -100,7 +100,7 @@ experience:
       >$45k in funding and sales.
 
   -
-    icon: 
+    icon: fitbit.jpg
     company: Fitbit
     role: Research & Development Intern
     loc: 
@@ -114,6 +114,7 @@ experience:
 ########### Publications (optional)
 publication:
   -
+    icon: gelsight_digger_finger.jpg
     title: 'Digger Finger: GelSight Tactile Sensor for Object Identification Inside Granular Media'
     author: Radhen Patel, Rui Ouyang, Branden Romero, Edward Adelson 
     journal: International Symposium on Experimental Robotics (ISER) 
@@ -131,6 +132,7 @@ publication:
       News.
 
   -
+    icon: fiducialforcesensor.jpg
     title: Low-Cost Fiducial-Based 6-Axis Force-Torque Sensor  
     author: Rui Ouyang, Robert Howe 
     journal: International Conference on Learning Representations (ICLR)
@@ -150,7 +152,7 @@ publication:
 ########### Projects (optional)
 project:
   -
-    icon: 
+    icon: ajc_mandatory_masks.jpg
     name: COVID Activism 
     link: 
       - 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
@@ -164,7 +166,7 @@ project:
       city mayors.
 
   -
-    icon:
+    icon: throwdini_blur_arrow.jpg
     name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
     link: 
       - 'https://nrobot.dev/images/throwdini_realtime.mp4'
@@ -178,7 +180,7 @@ project:
       model on real-life data. Assisted by two high-school summer interns.
 
   -
-    icon:
+    icon: underactuated.jpg
     time: 2018
     name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
     link: 
@@ -280,34 +282,36 @@ techstack: # <ML / Datasci
     name: Git
     link: 'https://github.com/'  
 
-roboticsstack:
+robotics_stack:
   -  
-    icon:
+    icon: solidworks.jpg
     name: Solidworks
     link: asdf
   -  
-    icon:
-    name: Eagle 
-    link: asdf
+    icon: diptrace.png
+    name: Diptrace 
+
   -  
     icon: ros.png
     name: ROS 
     link: 
+
   -  
-    icon:
+    icon: arduino.png
     name: Arduino
     link: asdf
+
   -  
-    icon:
+    icon: laser_2.png
     name: Lasercutter 
   -  
-    icon:
+    icon: 3dprinter.png
     name: 3D Printer 
   -  
-    icon:
+    icon: mill_mcmaster.png
     name: Mill/Lathe 
 
-contentcreationstack:
+creative_stack:
   -  
     icon: gimp.png
     name: GIMP (Photo Editing)
@@ -318,11 +322,11 @@ contentcreationstack:
     icon: lwks.png
     name: Lightworks (Video Editing)
   -  
-    icon:
+    icon: wordpress.png
     name: Wordpress 
   -  
-    icon:
-      name: Jekyll
+    icon: jekyll.png
+    name: Jekyll
 
 
 hobby:
@@ -352,7 +356,7 @@ education:
       #<br>
       #Other information here.
   -
-    icon: #cmu.png
+    icon: mit.jpg
     school: Massachusetts Institute of Technology
     degree: BS in Mechanical Engineering 
     loc: Cambridge, MA 

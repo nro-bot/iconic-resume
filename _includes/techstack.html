@@ -6,4 +6,18 @@
     </span>
   </div>
 {% endfor %}
+{% for lan in site.data.my.robotics_stack %}
+  <div class="item">
+    <span class="item-inner">
+       <img src="{{lan.icon | prepend: "/imgs/"}}"/> &nbsp; <span>{{lan.name}}</span>
+    </span>
+  </div>
+{% endfor %}
+{% for lan in site.data.my.creative_stack%}
+  <div class="item">
+    <span class="item-inner">
+       <img src="{{lan.icon | prepend: "/imgs/"}}"/> &nbsp; <span>{{lan.name}}</span>
+    </span>
+  </div>
+{% endfor %}
 </div>
