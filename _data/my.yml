@@ -6,12 +6,12 @@ headline: >-
   I'm a graduate researcher applying machine learning to counter-human
   trafficking. My passion lies in identifying and creatively addressing
   societal challenges. I have 7+ years of technical expertise in
-  wide-ranging fields from genomics to robotics and more.
+  wide-ranging fields from genomics to robotics and more. I grew up in Georgia (USA).
 
-  #keypoints: >-
-  #- point: Combined software and hardware research expertise leading to MIT
-  #News coverage and first author publication in prominent robotics venue 
-  #- point: Entrepreneurial and grant-writing skills resulting in >$45k of sales and funding 
+#keypoints: >-
+#- point: Combined software and hardware research expertise leading to MIT
+#News coverage and first author publication in prominent robotics venue 
+#- point: Entrepreneurial and grant-writing skills resulting in >$45k of sales and funding 
 defaultloc: Cambridge, MA
 
 
@@ -20,7 +20,7 @@ defaultloc: Cambridge, MA
 experience:
   -
     icon: 
-    lab: MIT Sloan Applied Economics Group (Prof. Roberto Rigobon)
+    company: MIT Sloan Applied Economics Group (Prof. Roberto Rigobon)
     loc: 
     time: 2020 ~ now &middot; 2yrs
     description: >-
@@ -33,77 +33,83 @@ experience:
 
   -
     icon: 
-    lab: MIT Perceptual Science Group (Prof. Edward Adelson) 
+    company: MIT Perceptual Science Group (Prof. Edward Adelson) 
     loc: 
     time: 2020 &middot; 1yr
     description: >-
       Developed tactile sensor for buried objects. My work in 3D
-      prototyping and image-based object detectionwith Pytorch led to an
-      MIT news article & second-author publication in ISER 2020.
+      prototyping and image-based object detection and shape recognition
+      with Pytorch led to an MIT news article & second-author publication
+      in ISER 2020 (see Publications).
   -
     icon: 
-    lab: Harvard Biomimetics Lab (Prof. Robert Howe)
+    company: Harvard Biomimetics Lab (Prof. Robert Howe)
     loc: 
     time: 2018  &middot; 1yr
     description: >-
       Designed and characterized novel vision-based force sensor using
-      arucoTags and openCV,leading to first-author publication in ICRA 2020.
+      arucoTags and OpenCV, leading to first-author publication in ICRA 2020 (see Publications).
 
 # industryexperience
-  - category: industry 
+  - 
     icon: 
-    role: Doctoral Intern
+    role: Doctoral Intern (part-time)
     company: Scotiabank 
     loc: 
     time: 2021 ~ 2022 &middot; 2yrs
-    description: >-
+    description: >- 
+      Created agent-based model to generate synthetic data to benchmark
+      anomaly detection algorithms used to flag transactional data and
+      accounts for counter-trafficking work.
 
-  - category: industry 
+  - 
     icon: 
+    role: Contract Scientist
     company: Manylabs, Inc. (Office of Naval Research grant)
     loc: 
-    time: 2014 ~ 2015  &middot; 1yr
+    time: 2021 ~ 2022 &middot; hourly
     description: >-
       Created OpenAI gym reinforcement learning environment to test
       planning algorithms for ocean buoys that use depth-dependent currents
       for control
 
   -
-    category: industry 
     icon: 
     company: Curoverse 
     loc: 
     time: 2014 ~ 2015  &middot; 1yr
     description: >-
         Developed privacy-respecting Python Flask webapps to expose genomic
-        data for inter-institute analysis for publication. Contributed to
-        Arvados platform documentation as part of Agile engineering team,
-        as well as liased with the Global Alliance for Genomics and Health
-        (GA4GH) and Personal Genome Project (PGP).
+        data for inter-institute analysis for publication. Wrote  Arvados
+        platform documentation with Boostrap CSS as part of Agile
+        engineering team.
+#as well as liased with the Global Alliance for Genomics and Health
+#(GA4GH) and Personal Genome Project (PGP).
 
   -
-    category: industry 
     icon: 
     company: NarwhalEdu 
     loc: 
     time: 2013 ~ 2014  &middot; 1yr
     description: >-
-      Founded startup to address gap in access to low-cost robotics
-      education in high schools. Created an onlineEdX class paired with a
-      custom drawing robot arm kit. My entrepreneurial and grant-writing
-      skills led to >$45k in funding and sales in our first year.
-      #$20k+ of Kickstarter sales reaching ~100 students in six countries. 
-      Product delivered on-time and on-budget, including
-      lasercutter contract manufacturing and custom circuit boards.
+      Founded startup to expand access to robotics
+      education through the low-cost combo of online classes and
+      hardware kits. Taught Creativty in Engineering class on EdX with
+      custom-engineered drawing robot arm kit. Delivered product on-time
+      and on-budget. My entrepreneurial and grant-writing skills led to
+      >$45k in funding and sales.
 
-      #Graduate of MIT Global Founder's Skills
-      #Accelerator 2013. 
+  -
+    icon: 
+    company: Fitbit
+    role: Research & Development Intern
+    loc: 
+    time: 2013 &middot; 3mo
+    description: >-
+      Evaluated prototypes of future product by writing MSP430 evaluation
+      firmware, designing mechanical prototypes sent out for CNC machining,
+      and analyzing experimental data in Pylab and MATLAB.
 
-
-#-----------
-#
-#Harvard University – CS109a Intro to Data Science – Teaching Fellow 	           	  Aug – Dec 2021
-#NarwhalEdu – Founder 	       Jun 2013 – Sep 2014
 
 ########### Publications (optional)
 publication:
@@ -112,37 +118,79 @@ publication:
     author: Radhen Patel, Rui Ouyang, Branden Romero, Edward Adelson 
     journal: International Symposium on Experimental Robotics (ISER) 
     year: 2020
-    link: 'http://arxiv.org/'
+    link: 
+      - 'https://arxiv.org/abs/2102.10230'
+      - 'https://docs.google.com/presentation/d/e/2PACX-1vSFca3c51EwwPCiC9s1D8r2-osrZR28yZ9s6gCUch6oOVBOiNEaGzKoAERGWQd0eF4otR563quuTioW/pub?start=false&loop=false&delayms=3000'
+      - 'https://sites.google.com/view/diggerfinger/'
+    description: >-
+      Gelsights are visual-tactile sensors used to give robots a sense of
+      touch. The Digger Finger is miniature wedge-shaped gelsight
+      specialized for digging in sand and other granular media. I helped
+      prototype the physical design as well as the initial shape detection
+      and annotation algorithm which used a YOLO-OBB model. Featured on MIT
+      News.
+
   -
-    title: low cost fifudical sensor 
-    author: Josh Lee
+    title: Low-Cost Fiducial-Based 6-Axis Force-Torque Sensor  
+    author: Rui Ouyang, Robert Howe 
     journal: International Conference on Learning Representations (ICLR)
-    year: 2021
-    link: 'http://arxiv.org/'
+    year: 2020
+    link: 
+      - 'https://arxiv.org/abs/2005.14250'
+      - 'https://docs.google.com/presentation/d/e/2PACX-1vR3MOrG-1h1OyTzDd7CDHQGD1FxvV2Hk_LyMmVhwhZrwcj5Y2xou6rVTQCQLCHDgoXni0E81xfimGBM/embed?'
+      - 'https://sites.google.com/view/fiducialforcesensor'
+    description: >-
+      A novel miniature six-axis force/torque sensor. The sensor is
+      low-cost (<$50) compared to other sensors which can cost up to tens
+      of thousands of dollars (e.g. some ATI sensors). The sensing
+      component itself uses simple webcam and a printed paper tag, allowing
+      for easy customization and use. Design files and code are
+      open-source (see website).
 
 ########### Projects (optional)
 project:
   -
-    icon: github.svg
-    name: awesome-project-one
-    link: 'https://github.com/'
+    icon: 
+    name: COVID Activism 
+    link: 
+      - 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
+      - 'https://www.ajc.com/news/opinion/opinion-shut-down-now-save-lives-economy/SnKDZg8MDXWiZfsegHAxHO'
+      - 'https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga'
+    time: 2020
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
+      Co-wrote op-eds published in the Atlanta Journal Constitution on COVID topics
+      (shutdown and mask mandates). Created petition with 80k+
+      signatures in two weeks which was sent to >200 state legislators and
+      city mayors.
+
   -
-    icon: github.svg
-    name: awesome-project-two
-    link: 'https://github.com/'
+    icon:
+    name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
+    link: 
+      - 'https://nrobot.dev/images/throwdini_realtime.mp4'
+    time: 2018
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
+      (Unpublished work) Implemeted robotic arm system capable of knife
+      throwing (see realtime video for example) with automated environment
+      reset for future reinforcement learning experiments. For the latter,  
+      a simple ballistics model is used to calculate initial throw
+      parameter, and the residual term would be calculated with a learned
+      model on real-life data. Assisted by two high-school summer interns.
 
-#AWARDS
-#Google Techmakers Scholarship		            Aug 2018
-
-#LEADERSHIP
-#Hackathon for Feminism (Hack4Fem) – Founder, organizer of event with >40 attendees                	    May 2015
-#MIT Electronics Research Society–President, student-run machine shop/makerspace 		   Feb 2012–2013
-
-
+  -
+    icon:
+    time: 2018
+    name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
+    link: 
+      - 'https://nrobot.dev/images/throwdini_realtime.mp4'
+    description: |
+      With Ashwin Krishna.
+      Used a flywheel to invert a pendulum (built from scratch). In simulation, we derive the
+      equations of motion and apply (linear quadartic regulator) LQR
+      controls to our system. We also build a hardware system from scratch
+      and implement swingup and stabilization using PD and bang-bang control. 
+      #I did the analysis and controls and co-built the hardware system.  
+      
 contact:
   -
     icon: 'bi bi-globe'
@@ -177,50 +225,74 @@ techstack: # <ML / Datasci
   -
     icon: pytorch.png
     name: PyTorch
+
   -
-    icon: 
-    name: opencv 
+    icon: opencv.png 
+    name: OpenCV
+
   -
-    icon: 
-    name: sklearn 
+    icon: scikit-learn.png
+    name: scikit-learn 
+
   -
-    icon: 
-    name: scipy 
+    icon: pandas.png 
+    name: Pandas 
+
   -
-    icon: 
-    name: pandas 
-  -
-    icon: 
+    icon: flask.png #flask_white.png 
     name: Flask 
   -
-    icon: 
-    name: SQL
+    icon: matplotlib.png 
+    name: Matplotlib 
   -
-    icon: 
-    name: linux 
+    icon: altair.png 
+    name: Altair 
+  -
+    icon: soup_icon.png #bs4_text.png
+    name: BeautifulSoup 
+  -
+    icon: scipy.png
+    name: Scipy 
+
+  - 
+    icon: nltk_blank.png #nltk.png
+    name: NLTK
+
+  - 
+    icon: spacy_blank.png
+    name: SpaCy
+
+  -
+    icon: sql.png #sqlite.jpg
+    name: SQLite
+
+  -
+    icon: linux.png
+    name: Linux 
     link: 'https://github.com/'  
+
   -
-    icon: 
-    name: bash 
+    icon: bash.svg #bash.png
+    name: Bash 
     link: 
   -
     icon: git.png
-    name: git
+    name: Git
     link: 'https://github.com/'  
 
 roboticsstack:
   -  
     icon:
-    name: Solidworks 
+    name: Solidworks
     link: asdf
   -  
     icon:
     name: Eagle 
     link: asdf
   -  
-    icon:
+    icon: ros.png
     name: ROS 
-    link: asdf
+    link: 
   -  
     icon:
     name: Arduino
@@ -235,13 +307,22 @@ roboticsstack:
     icon:
     name: Mill/Lathe 
 
-illustationstack:
+contentcreationstack:
+  -  
+    icon: gimp.png
+    name: GIMP (Photo Editing)
+  -  
+    icon: inkscape.png
+    name: Inkscape (Vector Art)
+  -
+    icon: lwks.png
+    name: Lightworks (Video Editing)
   -  
     icon:
-    name: Photo Editing (GIMP)
+    name: Wordpress 
   -  
     icon:
-    name: Vector Art (Inkscape) 
+      name: Jekyll
 
 
 hobby:
@@ -282,3 +363,25 @@ education:
       #Other information here.
 
 
+other:
+  - name: Google Techmakers Scholarship	Award
+    time: 2018 #Aug
+    description:
+      - Scholarship encouraging leadership in technical fields for women 
+
+  - name: Misc. Industry Talks and Press
+    time: 2013 ~ 2015
+    description: >-
+      - title:
+          "The Rise and Fall of an Open Source Hardware Startup", Open Hardware Summit, Sep. 2015 
+      - title:
+          "Introduction to Making: Rapid 3D Fabrication at MIT
+          and Beyoned, Panel", MIT Office of Digital Learning, Feb. 2015
+      - title: "All in a Day's Play," MIT Technology Review, Apr. 2015
+      - title: "Learn Engineering and Draw Narwhals," Hackaday, Nov. 2013
+
+
+
+#LEADERSHIP
+#Hackathon for Feminism (Hack4Fem) – Founder, organizer of event with >40 attendees                	    May 2015
+#MIT Electronics Research Society–President, student-run machine shop/makerspace 		   Feb 2012–2013
