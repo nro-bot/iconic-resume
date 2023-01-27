@@ -65,13 +65,13 @@ experience:
   - 
     icon: manylabs.png 
     role: Contract Scientist
-    company: Manylabs, Inc. (Office of Naval Research grant)
+    company: Manylabs, Inc. 
     loc: 
     time: 2021 ~ 2022 &middot; hourly
     description: >-
       Created OpenAI gym reinforcement learning environment to test
       planning algorithms for ocean buoys that use depth-dependent currents
-      for control
+      for control. (Subcontractor for Office of Naval Research grant)
 
   -
     icon: curoverse.jpg

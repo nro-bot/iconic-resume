@@ -1,22 +1,33 @@
+<h2>Tech Stack</h2>
 <div class="techstack">
 {% for lan in site.data.my.techstack %}
   <div class="item">
     <span class="item-inner">
-       <img src="{{lan.icon | prepend: "/imgs/"}}"/> &nbsp; <span>{{lan.name}}</span>
-    </span>
+       <img src="{{lan.icon | prepend: "/imgs/"}}"/> &nbsp;
+       <span>{{lan.name}}</span> </span>
   </div>
 {% endfor %}
+</div>
+
+<h2>Robotics Stack</h2>
+<div class="techstack">
 {% for lan in site.data.my.robotics_stack %}
   <div class="item">
     <span class="item-inner">
-       <img src="{{lan.icon | prepend: "/imgs/"}}"/> &nbsp; <span>{{lan.name}}</span>
+       <img src="{{lan.icon | prepend: "/imgs/"}}"/> &nbsp;
+       <span>{{lan.name}}</span>
     </span>
   </div>
 {% endfor %}
-{% for lan in site.data.my.creative_stack%}
+</div>
+
+<h2>Creative Stack</h2>
+<div class="techstack">
+{% for lan in site.data.my.creative_stack %}
   <div class="item">
     <span class="item-inner">
-       <img src="{{lan.icon | prepend: "/imgs/"}}"/> &nbsp; <span>{{lan.name}}</span>
+       <img src="{{lan.icon | prepend: "/imgs/"}}"/> &nbsp;
+       <span>{{lan.name}}</span>
     </span>
   </div>
 {% endfor %}
