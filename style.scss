@@ -25,23 +25,23 @@ h1 {
     //font-family: 'Pinyon Script', cursive;
 }
 table.default {
-    //width:100%;
+    width:100%;
     border:0px;
     border-spacing:0px;
     border-collapse:separate;
     margin-left:auto;
+    vertical-align: middle;
    }
-   td {
+td {
     //padding:2.5%;
-    vertical-align:middle;
+    padding-top:2mm;
+    padding-bottom:2mm;
    }
-
-
 tbody, td, tr{
     border-spacing: 0px;
     border-collapse: separate;
     margin-left: auto;
-    vertical-align: middle;}
+    }
 
 // section title
 h2 {
@@ -52,6 +52,12 @@ h2 {
     margin-bottom: 3px;
     margin-left: 0;
     // color: #4E4E4E;
+}
+
+h4{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 0;
 }
 
 // links

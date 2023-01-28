@@ -155,9 +155,12 @@ project:
     icon: ajc_mandatory_masks.jpg
     name: COVID Activism 
     link: 
-      - 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
-      - 'https://www.ajc.com/news/opinion/opinion-shut-down-now-save-lives-economy/SnKDZg8MDXWiZfsegHAxHO'
-      - 'https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga'
+      - name: oped1 
+        url: 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
+      - name: oped2
+        url: 'https://www.ajc.com/news/opinion/opinion-shut-down-now-save-lives-economy/SnKDZg8MDXWiZfsegHAxHO'
+      - name: petition 
+        url: 'https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga'
     time: 2020
     description: |
       Co-wrote op-eds published in the Atlanta Journal Constitution on COVID topics
@@ -169,7 +172,8 @@ project:
     icon: throwdini_blur_arrow.jpg
     name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
     link: 
-      - 'https://nrobot.dev/images/throwdini_realtime.mp4'
+      - name: video
+        url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
     time: 2018
     description: |
       (Unpublished work) Implemeted robotic arm system capable of knife
@@ -184,7 +188,8 @@ project:
     time: 2018
     name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
     link: 
-      - 'https://nrobot.dev/images/throwdini_realtime.mp4'
+      - name: video
+        url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
     description: |
       With Ashwin Krishna.
       Used a flywheel to invert a pendulum (built from scratch). In simulation, we derive the
