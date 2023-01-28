@@ -81,6 +81,7 @@ industry_experience:
   -
     icon: curoverse.jpg
     company: Curoverse 
+    role: Researcher
     loc: 
     time: 2014 ~ 2015  &middot; 1yr
     description: >-
@@ -94,6 +95,7 @@ industry_experience:
   -
     icon: narwhaledu.png 
     company: NarwhalEdu 
+    role: Founder, CEO 
     loc: 
     time: 2013 ~ 2014  &middot; 1yr
     description: >-
@@ -104,16 +106,16 @@ industry_experience:
       and on-budget. My entrepreneurial and grant-writing skills led to
       >$45k in funding and sales.
 
-  -
-    icon: fitbit.jpg
-    company: Fitbit
-    role: Research & Development Intern
-    loc: 
-    time: 2013 &middot; 3mo
-    description: >-
-      Evaluated prototypes of future product by writing MSP430 evaluation
-      firmware, designing mechanical prototypes sent out for CNC machining,
-      and analyzing experimental data in Pylab and MATLAB.
+  # -
+    # icon: fitbit.jpg
+    # company: Fitbit
+    # role: Research & Development Intern
+    # loc: 
+    # time: 2013 &middot; 3mo
+    # description: >-
+    #   Evaluated prototypes of future product by writing MSP430 evaluation
+    #   firmware, designing mechanical prototypes sent out for CNC machining,
+    #   and analyzing experimental data in Pylab and MATLAB.
 
 
 ########### Publications (optional)
