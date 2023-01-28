@@ -1,13 +1,13 @@
 name: >-
-  Rui Ouyang: 
-  Entrepreneurial Researcher & Computer Scientist
-
+  Rui Ouyang
+byline: >-
+  Entrepreneur, Researcher, & Computer Scientist
 headline: >-
-  I'm a graduate researcher applying machine learning to counter-human
-  trafficking. My passion lies in identifying and creatively addressing
-  societal challenges. I have 7+ years of technical expertise in
-  wide-ranging fields from genomics to robotics and more. I grew up in Georgia (USA).
-
+  I apply <b>machine learning</b> models to fighting human trafficking in my PhD
+  . My passion lies in identifying and creatively addressing <b>societal
+  challenges</b>. I have <b>8+ years</b> of technical expertise gained from applications
+  ranging from genomics to robotics and more.
+# Through expertise in wide-ranging fields from genomics to robotics and more. I grew up in Georgia (USA).
 #keypoints: >-
 #- point: Combined software and hardware research expertise leading to MIT
 #News coverage and first author publication in prominent robotics venue 
@@ -20,11 +20,12 @@ defaultloc: Cambridge, MA
 experience:
   -
     icon: sloan.jpg
-    company: MIT Sloan Applied Economics Group (Prof. Roberto Rigobon)
+    company: MIT Sloan Applied Economics Group
+#role: Prof. Roberto Rigobon
+    role: Trafficking in the Illicit Massage Industry
     loc: 
     time: 2020 ~ now &middot; 2yrs
     description: >-
-      * NLP & Iliicit Massage Industry *
       Trained natural language processing (NLP) machine learning (ML)
       models on Google Places review text in order to flag massage parlors.
       Explored spatiotemporal trends in the size of the illicit massage
@@ -33,8 +34,10 @@ experience:
 
   -
     icon: csail_wikipedia.png 
-    company: MIT Perceptual Science Group (Prof. Edward Adelson) 
+    company: MIT Perceptual Science Group 
+    prof: Prof. Edward Adelson
     loc: 
+    role: Touch Sensing for Robot Hands  
     time: 2020 &middot; 1yr
     description: >-
       Developed tactile sensor for buried objects. My work in 3D
@@ -43,14 +46,16 @@ experience:
       in ISER 2020 (see Publications).
   -
     icon: harvard_seas.jpg 
-    company: Harvard Biorobotics Lab (Prof. Robert Howe)
+    company: Harvard Biorobotics Lab 
+    prof: Prof. Robert Howe
+    role: Vision-Based Force Sensing 
     loc: 
     time: 2018  &middot; 1yr
     description: >-
       Designed and characterized novel vision-based force sensor using
       arucoTags and OpenCV, leading to first-author publication in ICRA 2020 (see Publications).
 
-# industryexperience
+industry_experience:
   - 
     icon: scotiabank.png 
     role: Doctoral Intern (part-time)
