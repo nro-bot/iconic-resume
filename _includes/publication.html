@@ -1,8 +1,36 @@
 <div class="publication">
-{% for p in site.data.my.publication %}
-    <p>
-    <i class="bi bi-file-earmark-text-fill"></i>&nbsp;{{p.author}},&nbsp; <b>{{p.title}}</b>,&nbsp; <i>{{p.journal}}</i>,&nbsp; {{p.year}}&nbsp;
-    <a href="{{p.link}}" title="{{p.title}}">[arxiv]</a>
-    </p>
-{% endfor %}
+    <table>
+        <tbody>
+    {% for p in site.data.my.publication %}
+        <tr>
+            <td style="width:25%; min-width:150px">
+                    <img class="project-icon" src="{{p.icon | prepend: " /imgs/"}} "> 
+            </td>
+            <td style="width:75%; padding-left:2.5%; vertical-align:top; "> 
+                <h4>{{p.title}}</h4>
+                <i>{{p.journal}}</i>,
+                {{p.year}}
+
+                <hr>
+
+                {{p.author}}
+                <br>
+                <b>Links:
+                {% for link in p.link %}
+                /
+                        <a href="{{link.url}}" title="{{p.name}}">
+                            {{link.name}}
+                        </a> 
+                {% endfor %}
+                /
+                </b>
+                <br>
+                {{p.description}}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
 </div>
+

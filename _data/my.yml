@@ -120,9 +120,14 @@ publication:
     journal: International Symposium on Experimental Robotics (ISER) 
     year: 2020
     link: 
-      - 'https://arxiv.org/abs/2102.10230'
-      - 'https://docs.google.com/presentation/d/e/2PACX-1vSFca3c51EwwPCiC9s1D8r2-osrZR28yZ9s6gCUch6oOVBOiNEaGzKoAERGWQd0eF4otR563quuTioW/pub?start=false&loop=false&delayms=3000'
-      - 'https://sites.google.com/view/diggerfinger/'
+      - name: arxiv
+        url: 'https://arxiv.org/abs/2102.10230'
+      - name: slides
+        url: 'https://docs.google.com/presentation/d/e/2PACX-1vSFca3c51EwwPCiC9s1D8r2-osrZR28yZ9s6gCUch6oOVBOiNEaGzKoAERGWQd0eF4otR563quuTioW/pub?start=false&loop=false&delayms=3000'
+      - name: site
+        url: 'https://sites.google.com/view/diggerfinger/'
+      - name: MIT News
+        url: 'https://news.mit.edu/2021/robotic-finger-buried-underground-0526'
     description: >-
       Gelsights are visual-tactile sensors used to give robots a sense of
       touch. The Digger Finger is miniature wedge-shaped gelsight
@@ -132,15 +137,18 @@ publication:
       News.
 
   -
-    icon: fiducialforcesensor.jpg
+    icon: fiducialforcesensor_larger.jpg
     title: Low-Cost Fiducial-Based 6-Axis Force-Torque Sensor  
     author: Rui Ouyang, Robert Howe 
     journal: International Conference on Learning Representations (ICLR)
     year: 2020
     link: 
-      - 'https://arxiv.org/abs/2005.14250'
-      - 'https://docs.google.com/presentation/d/e/2PACX-1vR3MOrG-1h1OyTzDd7CDHQGD1FxvV2Hk_LyMmVhwhZrwcj5Y2xou6rVTQCQLCHDgoXni0E81xfimGBM/embed?'
-      - 'https://sites.google.com/view/fiducialforcesensor'
+      - name: arxiv
+        url: 'https://arxiv.org/abs/2005.14250'
+      - name: slides
+        url: 'https://docs.google.com/presentation/d/e/2PACX-1vR3MOrG-1h1OyTzDd7CDHQGD1FxvV2Hk_LyMmVhwhZrwcj5Y2xou6rVTQCQLCHDgoXni0E81xfimGBM/embed?'
+      - name: site
+        url: 'https://sites.google.com/view/fiducialforcesensor'
     description: >-
       A novel miniature six-axis force/torque sensor. The sensor is
       low-cost (<$50) compared to other sensors which can cost up to tens
