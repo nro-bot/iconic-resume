@@ -229,10 +229,6 @@ techstack: # <ML / Datasci
     name: PyTorch
 
   -
-    icon: opencv.png 
-    name: OpenCV
-
-  -
     icon: scikit-learn.png
     name: scikit-learn 
 
@@ -283,6 +279,15 @@ techstack: # <ML / Datasci
     link: 'https://github.com/'  
 
 robotics_stack:
+  -
+    icon: opencv.png 
+    name: OpenCV
+
+  -  
+    icon: ros.png
+    name: ROS 
+    link: 
+
   -  
     icon: solidworks.jpg
     name: Solidworks
@@ -291,10 +296,6 @@ robotics_stack:
     icon: diptrace.png
     name: Diptrace 
 
-  -  
-    icon: ros.png
-    name: ROS 
-    link: 
 
   -  
     icon: arduino.png
@@ -330,9 +331,11 @@ creative_stack:
 
 
 hobby:
-  - Sailing 
-  - Robots
-  - Activism 
+  - Sailing on the ocean
+  - Watercoloring
+  - Vicarious hobbying (watching other people do hobbies on youtube) 
+    #  - Robots
+    # - Activism 
 
 ########### Education
 education:

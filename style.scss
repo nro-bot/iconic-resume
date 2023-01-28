@@ -24,6 +24,26 @@ h1 {
     font-weight: normal;
     //font-family: 'Pinyon Script', cursive;
 }
+table.default {
+    width:100%;
+    border:0px;
+    border-spacing:0px;
+    border-collapse:separate;
+    margin-right:auto;
+    margin-left:auto;
+   }
+   td {
+    //padding:2.5%;
+    vertical-align:middle;
+   }
+
+
+tbody, td, tr{
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;}
 
 // section title
 h2 {
@@ -120,7 +140,7 @@ p {
 }
 
 // education and experience entries
-.entry {
+.exp_entry {
     margin-top: 5pt;
     margin-bottom: 5pt;
     display: flex;
@@ -145,7 +165,7 @@ p {
         margin-bottom: 5px;
         }
 
-    .entry-items {
+    .exp_entry-items {
         display: flex;
         flex-direction: column;
         }
@@ -164,7 +184,7 @@ p {
 
 // publication section
 .publication{ 
- padding-left: 49px;
+padding-left: 49px;
  i {
     font-size: $font-size + 1pt;     
     }
@@ -174,8 +194,8 @@ p {
 .project{
     padding-left: 49px;
     img {
-    width: 20px;
-    height: 20px;
+    width: auto; //120px;
+    height: auto; //80px;
     }
 }
 

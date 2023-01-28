@@ -1,7 +1,22 @@
 <div class="project">
-{% for p in site.data.my.project %}
-    <img class="project-icon" src="{{p.icon | prepend: "/imgs/"}} "> 
-    <a href="{{p.link}}" title="{{p.name}}">{{p.name}}</a>
-    <p>{{p.description}}</p>
-{% endfor %}
+      <table>
+    <tbody>
+        {% for p in site.data.my.project %}
+        <tr>
+            <td style="width:25%; min-width:120px">
+                <img class="project-icon" 
+                    src="{{p.icon | prepend: "/imgs/"}} "> 
+            </td>
+            <td style="width:75%; padding-left:2.5%; vertical-align:top; "> 
+                <a href="{{p.link}}" title="{{p.name}}">
+                    {{p.name}}</a>
+                <p>
+                    {{p.description}}</p>
+            </td>
+        </tr>
+        {% endfor %} 
+    </tbody>
+</table>                  
+
 </div>
+<!-- https://stackoverflow.com/questions/43196541/jekyll-now-github-pages-tables-dont-show-up -->

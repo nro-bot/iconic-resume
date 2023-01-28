@@ -1,10 +1,10 @@
-{% for exp in site.data.my.experience %}
-{% include entry.html 
-                     icon = exp.icon
-                     title = exp.company
-                     subtitle = exp.role
-                     description = exp.description
-                     loc = exp.loc
-                     time = exp.time
- %}
+{% for item in site.data.my.experience %}
+    {% include exp_entry.html 
+                        icon = item.icon
+                        title = item.company
+                        subtitle = item.role
+                        description = item.description
+                        loc = item.loc
+                        time = item.time
+    %}
 {% endfor %}
