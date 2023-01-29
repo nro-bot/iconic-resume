@@ -9,14 +9,14 @@
             <td style="width:75%; padding-left:2.5%; vertical-align:top; "> 
                 <h4>{{p.name}} </h4>
                 <hr>
-                See: ~ 
+                / 
                     {% for link in p.link %}
                         <a href="{{link.url}}" title="{{p.name}}">
                             {{link.name}}</a> 
-                ~
+                / 
                     {% endfor %}
                 
-                        <br>
+                <hr>
                         {{p.description}}
             </td>
             </tr>

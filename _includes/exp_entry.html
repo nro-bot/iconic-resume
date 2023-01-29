@@ -1,10 +1,11 @@
 <!-- NOTE: realized that also used for education entries; todo rename "exp_entry" to "title-subtitle" or something -->
-<div class="exp_entry">
+<div class="exp_entry {{include.type}}"> 
    <img src="{{include.icon | prepend: "/imgs/"}} "> 
    <div class="exp_entry-items">
          <div>
             <span class="title">
-               {{include.title}}</span> 
+               {{include.title}}
+            </span> 
             <span class="loc">
                <i class="bi bi-geo-alt"></i>
                <!-- {{include.loc}} -->

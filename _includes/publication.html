@@ -8,23 +8,18 @@
             </td>
             <td style="width:75%; padding-left:2.5%; vertical-align:top; "> 
                 <h4>{{p.title}}</h4>
-                <i>{{p.journal}}</i>,
-                {{p.year}}
-
-                <hr>
-
-                {{p.author}}
+                <i>{{p.journal}}, {{p.year}}</i><br>
+                    {{p.author}}
                 <br>
-                <b>Links:
+                <hr>
                 {% for link in p.link %}
                 /
                         <a href="{{link.url}}" title="{{p.name}}">
-                            {{link.name}}
-                        </a> 
+                            {{link.name}}</a> 
                 {% endfor %}
                 /
-                </b>
                 <br>
+                <hr>
                 {{p.description}}
             </td>
         </tr>

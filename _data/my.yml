@@ -22,15 +22,13 @@ experience:
     icon: sloan.jpg
     company: MIT Sloan Applied Economics Group
 #role: Prof. Roberto Rigobon
-    role: Trafficking in the Illicit Massage Industry
+    role: Trafficking in the Illicit Massage Industry (IMI)
     loc: 
     time: 2020 ~ now &middot; 2yrs
     description: >-
-      Trained natural language processing (NLP) machine learning (ML)
-      models on Google Places review text in order to flag massage parlors.
-      Explored spatiotemporal trends in the size of the illicit massage
-      industry. In collaboration with The Network Team, IBM Technology for
-      Good, and Stop the Traffik.
+      Trained natural language processing (NLP) machine learning 
+      models on Google Places reviews to flag suspicious massage parlors.
+      Explored spatiotemporal trends in the IMI. Collaborators: The Network Team, IBM Technology for Good, and Stop the Traffik.
 
   -
     icon: csail_wikipedia.png 
@@ -42,7 +40,7 @@ experience:
     description: >-
       Developed tactile sensor for buried objects. My work in 3D
       prototyping and image-based object detection and shape recognition
-      with Pytorch led to an MIT news article & second-author publication
+      with PyTorch led to an MIT news article & second-author publication
       in ISER 2020 (see Publications).
   -
     icon: harvard_seas.jpg 
@@ -58,7 +56,7 @@ experience:
 industry_experience:
   - 
     icon: scotiabank.png 
-    role: Doctoral Intern (part-time)
+    role: Doctoral Intern
     company: Scotiabank 
     loc: 
     time: 2021 ~ 2022 &middot; 2yrs
@@ -69,14 +67,14 @@ industry_experience:
 
   - 
     icon: manylabs.png 
-    role: Contract Scientist
+    role: Subcontractor (Office of Naval Research grant)
     company: Manylabs, Inc. 
     loc: 
     time: 2021 ~ 2022 &middot; hourly
     description: >-
       Created OpenAI gym reinforcement learning environment to test
       planning algorithms for ocean buoys that use depth-dependent currents
-      for control. (Subcontractor for Office of Naval Research grant)
+      for control. 
 
   -
     icon: curoverse.jpg
@@ -85,10 +83,9 @@ industry_experience:
     loc: 
     time: 2014 ~ 2015  &middot; 1yr
     description: >-
-        Developed privacy-respecting Python Flask webapps to expose genomic
-        data for inter-institute analysis for publication. Wrote  Arvados
+        Developed privacy-respecting Python Flask webapp to share genomic data in the Global Alliance for Genomics and Health (GA4GH). Designed Arvados
         platform documentation with Boostrap CSS as part of Agile
-        engineering team.
+        team.
 #as well as liased with the Global Alliance for Genomics and Health
 #(GA4GH) and Personal Genome Project (PGP).
 
@@ -100,11 +97,10 @@ industry_experience:
     time: 2013 ~ 2014  &middot; 1yr
     description: >-
       Founded startup to expand access to robotics
-      education through the low-cost combo of online classes and
-      hardware kits. Taught Creativty in Engineering class on EdX with
-      custom-engineered drawing robot arm kit. Delivered product on-time
-      and on-budget. My entrepreneurial and grant-writing skills led to
-      >$45k in funding and sales.
+      classes by combining online classes and
+      low-cost hardware kits. Taught Creativty in Engineering class on EdX 
+      with a drawing robots. Lasercut kit delivered on-time
+      and on-budget to students around the world. My entrepreneurial and grant-writing skills led to >$45k in funding and sales.
 
   # -
     # icon: fitbit.jpg
@@ -123,7 +119,7 @@ publication:
   -
     icon: gelsight_digger_finger.jpg
     title: 'Digger Finger: GelSight Tactile Sensor for Object Identification Inside Granular Media'
-    author: Radhen Patel, Rui Ouyang, Branden Romero, Edward Adelson 
+    author: Radhen Patel, <b>Rui Ouyang</b>, Branden Romero, Edward Adelson 
     journal: International Symposium on Experimental Robotics (ISER) 
     year: 2020
     link: 
@@ -136,17 +132,17 @@ publication:
       - name: MIT News
         url: 'https://news.mit.edu/2021/robotic-finger-buried-underground-0526'
     description: >-
-      Gelsights are visual-tactile sensors used to give robots a sense of
-      touch. The Digger Finger is miniature wedge-shaped gelsight
-      specialized for digging in sand and other granular media. I helped
-      prototype the physical design as well as the initial shape detection
-      and annotation algorithm which used a YOLO-OBB model. Featured on MIT
-      News.
+      The Digger Finger is a visual-tactile sensor used to give robots a sense
+      of touch. The miniaturized wedge-shape design is specialized for digging
+      in sand and other granular media. I helped prototype the initial physical design and
+      shape detection algorithm (a variant of YOLO with oriented boxes).
+      Featured on MIT News.
+#Gelsights are visual-tactile sensors used to give robots a sense of touch. 
 
   -
     icon: fiducialforcesensor_larger.jpg
     title: Low-Cost Fiducial-Based 6-Axis Force-Torque Sensor  
-    author: Rui Ouyang, Robert Howe 
+    author: <b>Rui Ouyang</b>, Robert Howe 
     journal: International Conference on Learning Representations (ICLR)
     year: 2020
     link: 
@@ -167,6 +163,39 @@ publication:
 ########### Projects (optional)
 project:
   -
+    icon: throwdini_blur_arrow.jpg
+    name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
+    link: 
+      - name: video
+        url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
+    time: 2018
+    description: |
+      Implemeted robotic arm system capable of knife
+      throwing (see realtime video for example) with automated environment
+      reset for future reinforcement learning experiments. For the latter,  
+      a simple ballistics model is used to calculate initial throw
+      parameter (angle) and the residual term is learned from 
+      real-life data. Mentored two high-school summer interns.
+
+  -
+    icon: underactuated.jpg
+    time: 2018
+    name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
+    link: 
+      - name: video
+        url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
+    description: |
+      With Ashwin Krishna.
+      We built (from scratch) an inverted pendulum system that uses a flywheel
+      and angle sensor. I used bang-bang and proportional-derivative (PD)
+      controls to swing up the pendulum and stabilize it. In simulation, we
+      derived the equations of motion and
+      apply (linear quadartic regulator) LQR controls to our system.  
+ #We also built a hardware system from scratch
+ #and implement swingup and stabilization using PD and bang-bang control. 
+#I did the analysis and controls and co-built the hardware system.  
+
+  -
     icon: ajc_mandatory_masks.jpg
     name: COVID Activism 
     link: 
@@ -183,35 +212,6 @@ project:
       signatures in two weeks which was sent to >200 state legislators and
       city mayors.
 
-  -
-    icon: throwdini_blur_arrow.jpg
-    name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
-    link: 
-      - name: video
-        url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
-    time: 2018
-    description: |
-      (Unpublished work) Implemeted robotic arm system capable of knife
-      throwing (see realtime video for example) with automated environment
-      reset for future reinforcement learning experiments. For the latter,  
-      a simple ballistics model is used to calculate initial throw
-      parameter, and the residual term would be calculated with a learned
-      model on real-life data. Assisted by two high-school summer interns.
-
-  -
-    icon: underactuated.jpg
-    time: 2018
-    name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
-    link: 
-      - name: video
-        url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
-    description: |
-      With Ashwin Krishna.
-      Used a flywheel to invert a pendulum (built from scratch). In simulation, we derive the
-      equations of motion and apply (linear quadartic regulator) LQR
-      controls to our system. We also build a hardware system from scratch
-      and implement swingup and stabilization using PD and bang-bang control. 
-      #I did the analysis and controls and co-built the hardware system.  
       
 contact:
   -
@@ -220,7 +220,7 @@ contact:
     url: 'https://nrobot.dev'  
   -
     icon: 'bi bi-envelope'
-    name: nrobot.me@gmail.com
+    name: nrobot@mit.edu 
     url: 'mailto:nrobot.me@gmail.com'  
   -
     icon: 'bi bi-linkedin'
@@ -236,9 +236,9 @@ contact:
     #name: joshchannel
     #url: 'https://youtube.com'  
 
-language:
-  - English
-  - Mandarin 
+#language:
+#  - English
+#  - Mandarin 
 
 techstack: # <ML / Datasci
   -
@@ -362,23 +362,26 @@ education:
   -
     icon: harvard.png
     school: Harvard University
-    degree: PhD Candidate in Computer Science
+    degree: PhD Candidate in Computer Science&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
     loc: Cambridge, MA
-    time: "2017 ~ now &middot; 4 yrs "
+    time: "2017 ~ now"
+    #&middot;
 
   -
     icon: harvard.png
     school: Harvard University
     degree: MS in Computer Science
     loc: Cambridge, MA
-    time: 2017 ~ 2020 #&middot; 2 yrs
+    time: 2017 ~ 2020 &middot; 2 yrs
     #description: >-
       #GPA: 4.0/4.0
       #<br>
       #Thesis: Your Thesis Title Here
       #<br>
       #Other information here.
+
   -
+    #icon: blank.png
     icon: mit.jpg
     school: Massachusetts Institute of Technology
     degree: BS in Mechanical Engineering 
