@@ -162,10 +162,12 @@ p {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    width: 100%;
 
     .exp_entry-items {
         display: flex;
         flex-direction: column;
+    flex-grow: 1;
         }
 
     .loc {
@@ -221,6 +223,8 @@ p {
 // publication section
 .publication{ 
 //padding-left: 49px;
+
+    text-align:justify;
  i { // for conference
     font-size: $font-size// - 1pt;     
     }
@@ -233,6 +237,8 @@ p {
 
 // project section
 .project{
+
+    text-align:justify;
     padding-left: 49px;
     img {
     width: auto; //120px;
