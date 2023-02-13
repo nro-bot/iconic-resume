@@ -3,9 +3,9 @@ name: >-
 byline: >-
   Entrepreneur, Researcher, & Computer Scientist
 headline: >-
-  I apply <b>machine learning</b> models to fighting human trafficking in my PhD
-  . My passion lies in identifying and creatively addressing <b>societal
-  challenges</b>. I have <b>8+ years</b> of technical expertise gained from applications
+  I apply <b>machine learning</b> models to fighting human trafficking in my PhD. 
+  I love creative applications of tech, especially to address societal
+  challenges. I have <b>8+ years</b> of technical expertise gained from applications
   ranging from genomics to robotics and more.
 # Through expertise in wide-ranging fields from genomics to robotics and more. I grew up in Georgia (USA).
 #keypoints: >-
@@ -22,13 +22,14 @@ experience:
     icon: sloan.jpg
     company: MIT Sloan Applied Economics Group
 #role: Prof. Roberto Rigobon
-    role: Trafficking in the Illicit Massage Industry (IMI)
+    role: Trafficking in the Illicit Massage Industry
     loc: 
     time: 2020 ~ now &middot; 2yrs
     description: >-
-      Trained natural language processing (NLP) machine learning 
-      models on Google Places reviews to flag suspicious massage parlors.
-      Explored spatiotemporal trends in the IMI. Collaborators: The Network Team, IBM Technology for Good, and Stop the Traffik.
+      Trained <b>natural language processing</b> (NLP) machine learning models
+      on Google Places reviews to flag suspicious massage parlors.  Explored
+      spatiotemporal trends in the industry. Work done with IBM Technology for
+      Good, The Network Team, and Traffik Analysis Hub (see Projects).
 
   -
     icon: csail_wikipedia.png 
@@ -38,9 +39,9 @@ experience:
     role: Touch Sensing for Robot Hands  
     time: 2020 &middot; 1yr
     description: >-
-      Developed tactile sensor for buried objects. My work in 3D
+      Developed tactile sensor for buried objects. My work in electromechanical 
       prototyping and image-based object detection and shape recognition
-      with PyTorch led to an MIT news article & second-author publication
+      with <b>PyTorch</b> led to an MIT news article & second-author publication
       in ISER 2020 (see Publications).
   -
     icon: harvard_seas.jpg 
@@ -51,7 +52,9 @@ experience:
     time: 2018  &middot; 1yr
     description: >-
       Designed and characterized novel vision-based force sensor using
-      arucoTags and OpenCV, leading to first-author publication in ICRA 2020 (see Publications).
+      arucoTags and <b>OpenCV</b>, leading to first-author publication in
+      ICRA 2020 (see Publications). The sensor software and hardware design
+      files are open-sourced.
 
 industry_experience:
   - 
@@ -61,7 +64,7 @@ industry_experience:
     loc: 
     time: 2021 ~ 2022 &middot; 2yrs
     description: >- 
-      Created agent-based model to generate synthetic data to benchmark
+      Designed <b>agent-based model</b> to generate synthetic data to benchmark
       anomaly detection algorithms used to flag transactional data and
       accounts for counter-trafficking work.
 
@@ -72,7 +75,7 @@ industry_experience:
     loc: 
     time: 2021 ~ 2022 &middot; hourly
     description: >-
-      Created OpenAI gym reinforcement learning environment to test
+      Created OpenAI gym <b>reinforcement learning</b> environment to test
       planning algorithms for ocean buoys that use depth-dependent currents
       for control. 
 
@@ -83,7 +86,7 @@ industry_experience:
     loc: 
     time: 2014 ~ 2015  &middot; 1yr
     description: >-
-        Developed privacy-respecting Python Flask webapp to share genomic data in the Global Alliance for Genomics and Health (GA4GH). Designed Arvados
+        Developed privacy-respecting <b>Python Flask</b> webapp to share genomic data in the Global Alliance for Genomics and Health (GA4GH). Designed Arvados
         platform documentation with Boostrap CSS as part of Agile
         team.
 #as well as liased with the Global Alliance for Genomics and Health
@@ -97,10 +100,9 @@ industry_experience:
     time: 2013 ~ 2014  &middot; 1yr
     description: >-
       Founded startup to expand access to robotics
-      classes by combining online classes and
-      low-cost hardware kits. Taught Creativty in Engineering class on EdX 
-      with a drawing robots. Lasercut kit delivered on-time
-      and on-budget to students around the world. My entrepreneurial and grant-writing skills led to >$45k in funding and sales.
+      classes by combining online classes with low-cost hardware kits. Designed Creativity in Engineering class on EdX 
+      with drawing robot arm kits. Product (lasercut kit) delivered on-time
+      and on-budget to students around the world. My <b>entrepreneurial and grant-writing skills</b> led to >$45k in funding and sales.
 
   # -
     # icon: fitbit.jpg
@@ -117,7 +119,8 @@ industry_experience:
 ########### Publications (optional)
 publication:
   -
-    icon: gelsight_digger_finger.jpg
+  #icon: gelsight_digger_finger.jpg
+    icon: digger_finger_shapes.jpg
     title: 'Digger Finger: GelSight Tactile Sensor for Object Identification Inside Granular Media'
     author: Radhen Patel, <b>Rui Ouyang</b>, Branden Romero, Edward Adelson 
     journal: International Symposium on Experimental Robotics (ISER) 
@@ -163,8 +166,26 @@ publication:
 ########### Projects (optional)
 project:
   -
+    icon: calplot_rubmaps_crop3.png
+    name: NLP-Based Analysis of Illicit Massage Industry Trends
+    link: 
+      - name: talk 
+        url: https://www.linkedin.com/feed/update/urn:li:activity:6924721539376398337/
+    time: 2022
+    description: | 
+      Applied both simple and transfer learning (logistic
+      regression and transformers models) to analyze online reviews for
+      suspicious activity. Image shown is heatmap of review postings
+      showing a dip during COVID. Project presented at analyst call for
+      Traffik Analysis Hub (linked).
+#As businesses, these locations have reviews both on mainstream websites (Google Maps) as well as niche websites (Rubmaps). By creating a classifier to extrapolate from the more limited Rubmaps dataset to the Google Maps dataset, we can gain an understanding of the distribution and degree of illicit activity in a geographic region.
+
+#What I did: This is my own work, using Python and the SimpleTransformers library to finetune BERT models on this natural language processing classification task. Above: The standard data science tools (pandas, numpy, matplotlib, seaborn, scipy, sklearn) are used to create the above plot exploring number of reviews posted per day, from Jan to Dec 2020, on a single website; Data from Heyrick Research courtesy of IBM.
+
+#name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
+  -
     icon: throwdini_blur_arrow.jpg
-    name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
+    name: 'Throwing with Orientation Using a Robot Arm'
     link: 
       - name: video
         url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
@@ -177,20 +198,22 @@ project:
       parameter (angle) and the residual term is learned from 
       real-life data. Mentored two high-school summer interns.
 
-  -
-    icon: underactuated.jpg
-    time: 2018
-    name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
-    link: 
-      - name: video
-        url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
-    description: |
-      With Ashwin Krishna.
-      We built (from scratch) an inverted pendulum system that uses a flywheel
-      and angle sensor. I used bang-bang and proportional-derivative (PD)
-      controls to swing up the pendulum and stabilize it. In simulation, we
-      derived the equations of motion and
-      apply (linear quadartic regulator) LQR controls to our system.  
+
+#-
+#icon: underactuated.jpg
+#time: 2018
+#name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
+#link: 
+#- name: video
+#url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
+##description: |
+#With Ashwin Krishna.
+#We built (from scratch) an inverted pendulum system that uses a flywheel
+#and angle sensor. I used bang-bang and proportional-derivative (PD)
+#controls to swing up the pendulum and stabilize it. In simulation, we
+#derived the equations of motion and
+#apply (linear quadartic regulator) LQR controls to our system.  
+      
  #We also built a hardware system from scratch
  #and implement swingup and stabilization using PD and bang-bang control. 
 #I did the analysis and controls and co-built the hardware system.  
@@ -220,16 +243,16 @@ contact:
     url: 'https://nrobot.dev'  
   -
     icon: 'bi bi-envelope'
-    name: nrobot@mit.edu 
-    url: 'mailto:nrobot.me@gmail.com'  
+    name: nrobot at mit dot edu 
+    url: 'mailto:nrobot at mit dot edu'  
   -
     icon: 'bi bi-linkedin'
-    name: Rui Ouyang 
+    name: nrobot 
     url: 'https://www.linkedin.com/in/nrobot'  
   -
     icon: 'bi bi-github'
-    name: nrobot.www
-    url: 'https://github.com/nrobot-online'  
+    name: nro-bot
+    url: 'https://github.com/nro-bot'  
 
   #-
     #icon: 'bi bi-youtube'
@@ -351,9 +374,9 @@ creative_stack:
 
 
 hobby:
-  - Sailing on the ocean
-  - Watercoloring
-  - Vicarious hobbying (watching other people do hobbies on youtube) 
+  - ⛵ Sailing on the ocean
+  - 🎨 Watercoloring
+  - 📺 Vicarious hobbying (watching other people do hobbies on youtube) 
     #  - Robots
     # - Activism 
 

@@ -50,10 +50,10 @@ tbody, td, tr{
 
 // section title
 h2 {
-    font-size: $font-size + 5pt;
+    font-size: $font-size + 10pt;
     font-weight: normal;
-    font-family: 'Lobster', cursive;
-    //margin-top: 3px;
+    //font-family: 'Lobster', cursive;
+    margin-top: 3px;
     margin-bottom: 5px; // TODO
     margin-left: 0;
     // color: #4E4E4E;
@@ -68,6 +68,7 @@ h4 {
     margin-top: 3px;
     margin-bottom: 3px;
     margin-left: 0;
+    font-size: $font-size + 4px;
 }
 
 // links
@@ -128,7 +129,7 @@ p {
     .item {
         display: inline-block;
         line-height: 0.8rem;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         background: none;
         margin: 5px;
         text-decoration: none;
@@ -215,16 +216,16 @@ p {
 
     .subtitle {
         font-size: $font-size;
-        //font-weight: 600;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        font-weight: 600;
         }
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 // publication section
 .publication{ 
 //padding-left: 49px;
 
-    text-align:justify;
+    //text-align:justify;
  i { // for conference
     font-size: $font-size// - 1pt;     
     }
@@ -237,8 +238,7 @@ p {
 
 // project section
 .project{
-
-    text-align:justify;
+    //text-align:justify;
     padding-left: 49px;
     img {
     width: auto; //120px;
