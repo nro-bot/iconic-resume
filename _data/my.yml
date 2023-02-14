@@ -3,10 +3,12 @@ name: >-
 byline: >-
   Entrepreneur, Researcher, & Computer Scientist
 headline: >-
-  I apply <b>machine learning</b> models to fighting human trafficking in my PhD. 
-  I love creative applications of tech, especially to address societal
-  challenges. I have <b>8+ years</b> of technical expertise gained from applications
-  ranging from genomics to robotics and more.
+  For my PhD research, I apply <b>machine learning</b> models to 
+  fight human trafficking. I love finding creative applications of tech,
+  especially ones with a social focus. I have <b>8+ years</b> of technical
+  expertise gained from applications ranging
+  from genomics to robotics and more.
+#, and as a startup founder I have a track record of getting things done.
 # Through expertise in wide-ranging fields from genomics to robotics and more. I grew up in Georgia (USA).
 #keypoints: >-
 #- point: Combined software and hardware research expertise leading to MIT
@@ -17,11 +19,11 @@ defaultloc: Cambridge, MA
 
 ########### Experience (optional)
 # researchexperience:
+#role: Prof. Roberto Rigobon
 experience:
   -
     icon: sloan.jpg
     company: MIT Sloan Applied Economics Group
-#role: Prof. Roberto Rigobon
     role: Trafficking in the Illicit Massage Industry
     loc: 
     time: 2020 ~ now &middot; 2yrs
@@ -43,6 +45,7 @@ experience:
       prototyping and image-based object detection and shape recognition
       with <b>PyTorch</b> led to an MIT news article & second-author publication
       in ISER 2020 (see Publications).
+
   -
     icon: harvard_seas.jpg 
     company: Harvard Biorobotics Lab 
@@ -76,8 +79,8 @@ industry_experience:
     time: 2021 ~ 2022 &middot; hourly
     description: >-
       Created OpenAI gym <b>reinforcement learning</b> environment to test
-      planning algorithms for ocean buoys that use depth-dependent currents
-      for control. 
+      planning algorithms for ocean buoys with single degree-of-freedom (up or down). Depth-dependent currents
+      used for control. 
 
   -
     icon: curoverse.jpg
@@ -99,10 +102,10 @@ industry_experience:
     loc: 
     time: 2013 ~ 2014  &middot; 1yr
     description: >-
-      Founded startup to expand access to robotics
-      classes by combining online classes with low-cost hardware kits. Designed Creativity in Engineering class on EdX 
-      with drawing robot arm kits. Product (lasercut kit) delivered on-time
-      and on-budget to students around the world. My <b>entrepreneurial and grant-writing skills</b> led to >$45k in funding and sales.
+      Founded startup to expand access to robotics classes by combining
+      online classes with low-cost hardware kits. Accepted into MIT Global
+      Founders' Skills Acclerator. My <b>entrepreneurial and grant-writing skills</b>
+      led to >$45k in funding and sales in our first year. (see Projects).
 
   # -
     # icon: fitbit.jpg
@@ -164,40 +167,101 @@ publication:
       open-source (see website).
 
 ########### Projects (optional)
+  #icon: imi_diagram.jpg #calplot_rubmaps_crop3.png
 project:
   -
     icon: calplot_rubmaps_crop3.png
-    name: NLP-Based Analysis of Illicit Massage Industry Trends
+    name: Illicit Massage Industry Analysis with NLP (2021)
     link: 
       - name: talk 
         url: https://www.linkedin.com/feed/update/urn:li:activity:6924721539376398337/
     time: 2022
     description: | 
-      Applied both simple and transfer learning (logistic
-      regression and transformers models) to analyze online reviews for
+      Applied machine learning models (ranging from logistic
+      regression to transformers) to analyze online reviews for
       suspicious activity. Image shown is heatmap of review postings
       showing a dip during COVID. Project presented at analyst call for
-      Traffik Analysis Hub (linked).
+      Traffik Analysis Hub.
+
+  -
+    icon: synthetic.jpg 
+    name: Synthetic Banking Data for Counter-Trafficking (2022)
+    link: 
+      - name: ''
+        url: '' 
+    time: 2022
+    description: | 
+      For counter-human trafficking, the banking sector faces expensive and
+      scarce ground truth labels. Developed framework to generate both
+      tabular and graph data to assist the machine learning methods used.
+      
+
+# semi-supervised learning with
+#      label propagation can augment counter-human trafficking work in
+#      banking.  
+
+#-
+#icon: buoy_paths.jpg 
+#name: 'Oceansim (2021)'
+##link: 
+#- name: video
+#url: 
+#time: 2018
+#description: |
+#test
+
 #As businesses, these locations have reviews both on mainstream websites (Google Maps) as well as niche websites (Rubmaps). By creating a classifier to extrapolate from the more limited Rubmaps dataset to the Google Maps dataset, we can gain an understanding of the distribution and degree of illicit activity in a geographic region.
 
 #What I did: This is my own work, using Python and the SimpleTransformers library to finetune BERT models on this natural language processing classification task. Above: The standard data science tools (pandas, numpy, matplotlib, seaborn, scipy, sklearn) are used to create the above plot exploring number of reviews posted per day, from Jan to Dec 2020, on a single website; Data from Heyrick Research courtesy of IBM.
 
 #name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
+
+  -
+    icon: ajc_mandatory_masks.jpg
+    name: COVID Activism (2020)
+    link: 
+      - name: oped1 
+        url: 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
+      - name: oped2
+        url: 'https://www.ajc.com/news/opinion/opinion-shut-down-now-save-lives-economy/SnKDZg8MDXWiZfsegHAxHO'
+      - name: petition 
+        url: 'https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga'
+    time: 2020
+    description: |
+      Co-wrote op-eds published in the Atlanta Journal Constitution on COVID topics
+      (shutdown and mask mandates). Created petition with 80k+
+      signatures in two weeks which was sent to >200 state legislators and
+      city mayors.
+
   -
     icon: throwdini_blur_arrow.jpg
-    name: 'Throwing with Orientation Using a Robot Arm'
+    name: 'Throwing with Orientation (2018)'
     link: 
       - name: video
         url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
     time: 2018
     description: |
       Implemeted robotic arm system capable of knife
-      throwing (see realtime video for example) with automated environment
-      reset for future reinforcement learning experiments. For the latter,  
-      a simple ballistics model is used to calculate initial throw
-      parameter (angle) and the residual term is learned from 
-      real-life data. Mentored two high-school summer interns.
+      throwing (see video) with automated environment reset for
+      reinforcement learning experiments. Mentored two high-school summer
+      interns.  (Sponsored by Prof. Robert Platt at Northeastern Uni.)
+#For the latter,
+#a simple ballistics model is used to calculate initial throw
+#parameter (angle) and the residual term is learned from real-life
+#data. 
 
+  -
+    icon: kickstarter_crop.jpg
+    name: 'Kickstarter: Creativity and Engineering (2014)'
+    link: 
+      - name: more details 
+        url: 'https://ruiouyang.com/2013/05/NarwhalEdu-Kickstarter/'
+    time: 2014
+    description: |
+      Designed "Creativity in Engineering" class on EdX with drawing robot
+      arm kits. Ran sucessful Kickstarter campaign. Product
+      (contract-manufactured lasercut chassis kit) delivered
+      on-time and on-budget to students around the world. 
 
 #-
 #icon: underactuated.jpg
@@ -217,24 +281,6 @@ project:
  #We also built a hardware system from scratch
  #and implement swingup and stabilization using PD and bang-bang control. 
 #I did the analysis and controls and co-built the hardware system.  
-
-  -
-    icon: ajc_mandatory_masks.jpg
-    name: COVID Activism 
-    link: 
-      - name: oped1 
-        url: 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
-      - name: oped2
-        url: 'https://www.ajc.com/news/opinion/opinion-shut-down-now-save-lives-economy/SnKDZg8MDXWiZfsegHAxHO'
-      - name: petition 
-        url: 'https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga'
-    time: 2020
-    description: |
-      Co-wrote op-eds published in the Atlanta Journal Constitution on COVID topics
-      (shutdown and mask mandates). Created petition with 80k+
-      signatures in two weeks which was sent to >200 state legislators and
-      city mayors.
-
       
 contact:
   -
