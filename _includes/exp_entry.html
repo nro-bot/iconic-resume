@@ -1,27 +1,30 @@
 <!-- NOTE: realized that also used for education entries; todo rename "exp_entry" to "title-subtitle" or something -->
 <div class="exp_entry {{include.type}}"> 
-   <img src="{{include.icon | prepend: "/imgs/"}} "> 
-   <div class="exp_entry-items">
-         <div>
+    <img src="{{include.icon | prepend: "/imgs/"}} "> 
+    <div class="exp_entry-items">
+        <div>
             <span class="title">
-               {{include.title}}
+                {{include.title}}
             </span> 
             <span class="loc">
-               <i class="bi bi-geo-alt"></i>
-               <!-- {{include.loc}} -->
-               {{site.data.my.defaultloc}}
+                <i class="bi bi-geo-alt"></i>
+                {% if include.loc %}
+                    {{include.loc}}
+                {% else %}
+                    {{site.data.my.defaultloc}}
+                {% endif %}
             </span>
-         </div>
-         <div>
+        </div>
+        <div>
             <span class="subtitle">
-               {{include.subtitle}}</span> 
+                {{include.subtitle}}</span> 
 
             <span class="time">
-               {{include.time}}
+                {{include.time}}
             </span>
-         </div>
-         <div class="description">
-         <p>{{include.description}}</p>  
-         </div>  
-      </div>
+        </div>
+        <div class="description">
+            <p>{{include.description}}</p>  
+        </div>  
+    </div>
 </div>

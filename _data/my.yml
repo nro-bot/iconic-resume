@@ -64,7 +64,7 @@ industry_experience:
     icon: scotiabank.png 
     role: Doctoral Intern
     company: Scotiabank 
-    loc: 
+    loc: Toronto, Canada (Remote)
     time: 2021 ~ 2022 &middot; 2yrs
     description: >- 
       Designed <b>agent-based model</b> to generate synthetic data to benchmark
@@ -75,7 +75,7 @@ industry_experience:
     icon: manylabs.png 
     role: Subcontractor (Office of Naval Research grant)
     company: Manylabs, Inc. 
-    loc: 
+    loc: Remote
     time: 2021 ~ 2022 &middot; hourly
     description: >-
       Created OpenAI gym <b>reinforcement learning</b> environment to test
@@ -86,7 +86,7 @@ industry_experience:
     icon: curoverse.jpg
     company: Curoverse 
     role: Researcher
-    loc: 
+    loc: Somerville, MA 
     time: 2014 ~ 2015  &middot; 1yr
     description: >-
         Developed privacy-respecting <b>Python Flask</b> webapp to share genomic data in the Global Alliance for Genomics and Health (GA4GH). Designed Arvados
@@ -121,9 +121,9 @@ industry_experience:
 
 ########### Publications (optional)
 publication:
+    #icon: digger_finger_shapes.jpg
   -
-  #icon: gelsight_digger_finger.jpg
-    icon: digger_finger_shapes.jpg
+    icon: gelsight_digger_finger.jpg
     title: 'Digger Finger: GelSight Tactile Sensor for Object Identification Inside Granular Media'
     author: Radhen Patel, <b>Rui Ouyang</b>, Branden Romero, Edward Adelson 
     journal: International Symposium on Experimental Robotics (ISER) 
@@ -171,11 +171,11 @@ publication:
 project:
   -
     icon: calplot_rubmaps_crop3.png
-    name: Illicit Massage Industry Analysis with NLP (2021)
+    name: Illicit Massage Industry Analysis with NLP
     link: 
       - name: talk 
         url: https://www.linkedin.com/feed/update/urn:li:activity:6924721539376398337/
-    time: 2022
+    time: 2021
     description: | 
       Applied machine learning models (ranging from logistic
       regression to transformers) to analyze online reviews for
@@ -185,10 +185,7 @@ project:
 
   -
     icon: synthetic.jpg 
-    name: Synthetic Banking Data for Counter-Trafficking (2022)
-    link: 
-      - name: ''
-        url: '' 
+    name: Synthetic Banking Data for Counter-Trafficking 
     time: 2022
     description: | 
       For counter-human trafficking, the banking sector faces expensive and
@@ -218,7 +215,7 @@ project:
 
   -
     icon: ajc_mandatory_masks.jpg
-    name: COVID Activism (2020)
+    name: COVID Activism
     link: 
       - name: oped1 
         url: 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
@@ -235,7 +232,7 @@ project:
 
   -
     icon: throwdini_blur_arrow.jpg
-    name: 'Throwing with Orientation (2018)'
+    name: 'Throwing with Orientation'
     link: 
       - name: video
         url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
@@ -252,7 +249,7 @@ project:
 
   -
     icon: kickstarter_crop.jpg
-    name: 'Kickstarter: Creativity and Engineering (2014)'
+    name: 'Kickstarter: Creativity and Engineering'
     link: 
       - name: more details 
         url: 'https://ruiouyang.com/2013/05/NarwhalEdu-Kickstarter/'

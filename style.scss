@@ -8,6 +8,7 @@ $font-size: 11pt;
 $section-margin: 5pt;
 
 html,body{
+    background-color: snow;//ghostwhite;//ivory;//snow;//seashell;
     height: 297mm;
     width: 225mm;//210mm; 
     margin: auto;
@@ -234,6 +235,11 @@ p {
     width: 100%; //120px;
     height: auto; //80px;
     }
+
+    .time {
+        float: right;
+        color: #BDC3C7;
+        }
 }
 
 // project section

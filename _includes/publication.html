@@ -13,11 +13,10 @@
                 <br>
                 <hr>
                 {% for link in p.link %}
-                /
-                        <a href="{{link.url}}" title="{{p.name}}">
-                            {{link.name}}</a> 
+                -
+                    <a href="{{link.url}}" title="{{p.name}}">
+                      {{link.name}}</a> &ensp;
                 {% endfor %}
-                /
                 <br>
                 <hr>
                 {{p.description}}
