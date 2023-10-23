@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
 
-$font-size: 11pt;
+$font-size: 12pt;
 $section-margin: 5pt;
 
 html,body{
-    background-color: snow;//ghostwhite;//ivory;//snow;//seashell;
+    //background-color: snow;//ghostwhite;//ivory;//snow;//seashell;
     height: 297mm;
     width: 225mm;//210mm; 
     margin: auto;
@@ -104,7 +104,7 @@ p {
 .contact {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 5px;
     i {
         font-size: $font-size + 1pt;
         color: black;       
@@ -130,9 +130,10 @@ p {
     .item {
         display: inline-block;
         line-height: 0.8rem;
-        font-size: 0.8rem;
+        //font-size: 0.8rem;
+        font-size: $font-size - 3px;
         background: none;
-        margin: 5px;
+        margin: 2px;
         text-decoration: none;
 
         .item-inner {
@@ -219,8 +220,10 @@ p {
         font-size: $font-size;
         font-weight: 600;
         }
-    margin-top: 2px;
-    margin-bottom: 2px;
+    //margin-top: 2px;
+    //margin-bottom: 2px;
+    margin: 0px;
+    padding: 0px;
 }
 // publication section
 .publication{ 

@@ -6,6 +6,8 @@
             <span class="title">
                 {{include.title}}
             </span> 
+            {% if include.loc == '' %}
+            {% else %}
             <span class="loc">
                 <i class="bi bi-geo-alt"></i>
                 {% if include.loc %}
@@ -14,6 +16,7 @@
                     {{site.data.my.defaultloc}}
                 {% endif %}
             </span>
+            {% endif %}
         </div>
         <div>
             <span class="subtitle">

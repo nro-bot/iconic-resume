@@ -1,13 +1,13 @@
 name: >-
-  Rui Ouyang
+  Rui Ouyang 
 byline: >-
-  Entrepreneur, Researcher, & Computer Scientist
+  Natural Language Processing Researcher <br>
+  with a background in robotics
 headline: >-
-  For my PhD research, I apply <b>machine learning</b> models to 
-  fight human trafficking. I love finding creative applications of tech,
-  especially ones with a social focus. I have <b>8+ years</b> of technical
+  For my PhD research, I applied <b>machine learning</b> models to 
+  fight human trafficking. I love the creative side of engineering and research. I have <b>8+ years</b> of technical
   expertise gained from applications ranging
-  from genomics to robotics and more.
+  from genomics to robotics and more. <br>
 #, and as a startup founder I have a track record of getting things done.
 # Through expertise in wide-ranging fields from genomics to robotics and more. I grew up in Georgia (USA).
 #keypoints: >-
@@ -28,10 +28,11 @@ experience:
     loc: 
     time: 2020 ~ now &middot; 2yrs
     description: >-
-      Trained <b>natural language processing</b> (NLP) machine learning models
-      on Google Places reviews to flag suspicious massage parlors.  Explored
-      spatiotemporal trends in the industry. Work done with IBM Technology for
-      Good, The Network Team, and Traffik Analysis Hub (see Projects).
+      I trained <b>natural language processing</b> (NLP)
+      models to research the U.S. illicit massage industry (IMI).
+      Collaborators include IBM Technology for
+      Good, The Network Team, the Wisconsin Department of Justice, and
+      Traffik Analysis Hub (see Publications).
 
   -
     icon: csail_wikipedia.png 
@@ -67,20 +68,20 @@ industry_experience:
     loc: Toronto, Canada (Remote)
     time: 2021 ~ 2022 &middot; 2yrs
     description: >- 
-      Designed <b>agent-based model</b> to generate synthetic data to benchmark
-      anomaly detection algorithms used to flag transactional data and
+      Designed <b>agent-based models</b> to generate synthetic data to benchmark
+      anomaly detection algorithms such as <b>Gaussian Mixture Models</b> used to flag transactional data and
       accounts for counter-trafficking work.
 
-  - 
-    icon: manylabs.png 
-    role: Subcontractor (Office of Naval Research grant)
-    company: Manylabs, Inc. 
-    loc: Remote
-    time: 2021 ~ 2022 &middot; hourly
-    description: >-
-      Created OpenAI gym <b>reinforcement learning</b> environment to test
-      planning algorithms for ocean buoys with single degree-of-freedom (up or down). Depth-dependent currents
-      used for control. 
+  #- 
+    #icon: manylabs.png 
+    #role: Subcontractor (Office of Naval Research grant)
+    #company: Manylabs, Inc. 
+    #loc: Remote
+    #time: 2021 ~ 2022 &middot; hourly
+    #description: >-
+      #Created OpenAI gym <b>reinforcement learning</b> environment to test
+      #planning algorithms for ocean buoys with single degree-of-freedom (up or down). Depth-dependent currents
+      #used for control. 
 
   -
     icon: curoverse.jpg
@@ -120,7 +121,31 @@ industry_experience:
 
 
 ########### Publications (optional)
+
+########### Projects (optional)
+  #icon: imi_diagram.jpg #calplot_rubmaps_crop3.png
+  #https://arxiv.org/abs/2309.03470
+  # Machine Learning for Tangible Effects: Natural Language Processing for Uncovering the Illicit Massage Industry & Computer Vision for Tactile Sensing
 publication:
+  -
+    icon: thumbnail_nlp_pipeline.png 
+    title: 'Machine Learning for Tangible Effects: Natural Language Processing for Uncovering the Illicit Massage Industry'
+    author: <b>Rui Ouyang</b>
+    journal: Harvard Uni. Department of Computer Science, Doctoral Thesis
+    year: 2023
+    link:
+     - name: thesis on arxiv 
+       url: 'https://arxiv.org/abs/2309.03470'
+     - name: defense video
+       url: 'https://www.youtube.com/watch?v=Om8fdqSQyJ8'
+     - name: defense slides 
+       url: 'https://docs.google.com/presentation/d/1NfrZYWBR5R8XLGmo2f1VieHoT9Ir4HzBtAmoWcDCrJU'
+     - name: invited talk 
+       url: 'https://www.linkedin.com/feed/update/urn:li:activity:6924721539376398337/'
+    time: 2021
+    description: >- 
+      The United States illicit massage industry (IMI) is a multi-billion dollar industry. By creating datasets with three publicly-accessible websites, cominbed with NLP techniques such as bag-of-words and Word2Vec, I show how to derive insights into the labor pressures and language barriers that employees in the IMI face, as well as the income, demographics, and societal pressures affecting sex buyers. Committee: Profs. Roberto Rigobon, Finale Doshi-Velez, David Parkes.
+
     #icon: digger_finger_shapes.jpg
   -
     icon: gelsight_digger_finger.jpg
@@ -138,11 +163,12 @@ publication:
       - name: MIT News
         url: 'https://news.mit.edu/2021/robotic-finger-buried-underground-0526'
     description: >-
-      The Digger Finger is a visual-tactile sensor used to give robots a sense
-      of touch. The miniaturized wedge-shape design is specialized for digging
-      in sand and other granular media. I helped prototype the initial physical design and
-      shape detection algorithm (a variant of YOLO with oriented boxes).
-      Featured on MIT News.
+      I worked with Radhen Patel to prototype a robotic sensor specialized for finding objects buried in sand. We created a wedge-shaped sensor with a vibrator motor and miniaturized the Gelsight technology so as to reduce force in traversing sand.  Featured on MIT News.
+
+#The Digger Finger is a visual-tactile sensor used to give robots a sense
+#of touch. The miniaturized wedge-shape design is specialized for digging
+#in sand and other granular media. I helped prototype the initial physical design and
+#shape detection algorithm (a variant of YOLO with oriented boxes).
 #Gelsights are visual-tactile sensors used to give robots a sense of touch. 
 
   -
@@ -165,33 +191,16 @@ publication:
       component itself uses simple webcam and a printed paper tag, allowing
       for easy customization and use. Design files and code are
       open-source (see website).
-
-########### Projects (optional)
-  #icon: imi_diagram.jpg #calplot_rubmaps_crop3.png
 project:
-  -
-    icon: calplot_rubmaps_crop3.png
-    name: Illicit Massage Industry Analysis with NLP
-    link: 
-      - name: talk 
-        url: https://www.linkedin.com/feed/update/urn:li:activity:6924721539376398337/
-    time: 2021
-    description: | 
-      Applied machine learning models (ranging from logistic
-      regression to transformers) to analyze online reviews for
-      suspicious activity. Image shown is heatmap of review postings
-      showing a dip during COVID. Project presented at analyst call for
-      Traffik Analysis Hub.
-
-  -
-    icon: synthetic.jpg 
-    name: Synthetic Banking Data for Counter-Trafficking 
-    time: 2022
-    description: | 
-      For counter-human trafficking, the banking sector faces expensive and
-      scarce ground truth labels. Developed framework to generate both
-      tabular and graph data to assist the machine learning methods used.
-      
+#-
+  #icon: synthetic.jpg 
+  #name: Synthetic Banking Data for Counter-Trafficking 
+  #time: 2022
+  #description: | 
+    #For counter-human trafficking, the banking sector faces expensive and
+    #scarce ground truth labels. Developed framework to generate both
+    #tabular and graph data to assist the machine learning methods used.
+    
 
 # semi-supervised learning with
 #      label propagation can augment counter-human trafficking work in
@@ -213,39 +222,60 @@ project:
 
 #name: 'Throwdini: Throwing with Orientation by Reinforcement Learning of Physics Model Errors'
 
-  -
-    icon: ajc_mandatory_masks.jpg
-    name: COVID Activism
-    link: 
-      - name: oped1 
-        url: 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
-      - name: oped2
-        url: 'https://www.ajc.com/news/opinion/opinion-shut-down-now-save-lives-economy/SnKDZg8MDXWiZfsegHAxHO'
-      - name: petition 
-        url: 'https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga'
-    time: 2020
-    description: |
-      Co-wrote op-eds published in the Atlanta Journal Constitution on COVID topics
-      (shutdown and mask mandates). Created petition with 80k+
-      signatures in two weeks which was sent to >200 state legislators and
-      city mayors.
+  #-
+    #icon: ajc_mandatory_masks.jpg
+    #name: COVID Activism
+    #link: 
+      #- name: oped1 
+        #url: 'https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-mandatory/CuAkakHXNcEnCD0xTABMrJ/'
+      #- name: oped2
+        #url: 'https://www.ajc.com/news/opinion/opinion-shut-down-now-save-lives-economy/SnKDZg8MDXWiZfsegHAxHO'
+      #- name: petition 
+        #url: 'https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga'
+    #time: 2020
+    #description: |
+      #Co-wrote op-eds published in the Atlanta Journal Constitution on COVID topics
+      #(shutdown and mask mandates). Created petition with 80k+
+      #signatures in two weeks which was sent to >200 state legislators and
+      #city mayors.
 
-  -
-    icon: throwdini_blur_arrow.jpg
-    name: 'Throwing with Orientation'
-    link: 
-      - name: video
-        url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
-    time: 2018
-    description: |
-      Implemeted robotic arm system capable of knife
-      throwing (see video) with automated environment reset for
-      reinforcement learning experiments. Mentored two high-school summer
-      interns.  (Sponsored by Prof. Robert Platt at Northeastern Uni.)
-#For the latter,
-#a simple ballistics model is used to calculate initial throw
-#parameter (angle) and the residual term is learned from real-life
-#data. 
+  #-
+    #icon: throwdini_blur_arrow.jpg
+    #name: 'Throwing with Orientation'
+    #link: 
+      #- name: video
+        #url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
+    #time: 2018
+    #description: |
+      #Implemeted robotic arm system capable of knife
+      #throwing (see video) with automated environment reset for
+      #reinforcement learning experiments. Mentored two high-school summer
+      #interns.  (Sponsored by Prof. Robert Platt at Northeastern Uni.)
+##For the latter,
+##a simple ballistics model is used to calculate initial throw
+##parameter (angle) and the residual term is learned from real-life
+##data. 
+#
+  #-
+    #icon: underactuated.jpg
+    #time: 2018
+    #name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
+    #link: 
+      #- name: video
+        #url: 'https://nrobot.dev/images/underactuated.mp4'
+      #- name: final report
+        #url: 'https://nrobot.dev/pdfs/class_underactuated.pdf'
+    #description: |
+      #With Ashwin Krishna.
+      #We built (from scratch) an inverted pendulum system that uses a flywheel
+      #and angle sensor. I used bang-bang and proportional-derivative (PD)
+      #controls to swing up the pendulum and stabilize it. In simulation, we
+      #derived the equations of motion and
+      #apply (linear quadratic regulator) LQR controls to our system.  
+            
+     #We also built a hardware system from scratch
+     #and implement swingup and stabilization using PD and bang-bang control. 
+    #I did the analysis and controls and co-built the hardware system.  
 
   -
     icon: kickstarter_crop.jpg
@@ -260,24 +290,7 @@ project:
       (contract-manufactured lasercut chassis kit) delivered
       on-time and on-budget to students around the world. 
 
-#-
-#icon: underactuated.jpg
-#time: 2018
-#name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
-#link: 
-#- name: video
-#url: 'https://nrobot.dev/images/throwdini_realtime.mp4'
-##description: |
-#With Ashwin Krishna.
-#We built (from scratch) an inverted pendulum system that uses a flywheel
-#and angle sensor. I used bang-bang and proportional-derivative (PD)
-#controls to swing up the pendulum and stabilize it. In simulation, we
-#derived the equations of motion and
-#apply (linear quadartic regulator) LQR controls to our system.  
-      
- #We also built a hardware system from scratch
- #and implement swingup and stabilization using PD and bang-bang control. 
-#I did the analysis and controls and co-built the hardware system.  
+#description: |
       
 contact:
   -
@@ -286,16 +299,20 @@ contact:
     url: 'https://nrobot.dev'  
   -
     icon: 'bi bi-envelope'
-    name: nrobot at mit dot edu 
+    name: nrobot@ <br>&nbsp;mit dot edu 
     url: 'mailto:nrobot at mit dot edu'  
   -
     icon: 'bi bi-linkedin'
     name: nrobot 
     url: 'https://www.linkedin.com/in/nrobot'  
-  -
-    icon: 'bi bi-github'
-    name: nro-bot
-    url: 'https://github.com/nro-bot'  
+  #-
+    #icon: 'bi bi-github'
+    #name: nro-bot
+    #url: 'https://github.com/nro-bot'  
+  #-
+    #icon: 'bi bi-pencil'
+    #name: personal blog 
+    #url: 'https://orangenarwhals.com'  
 
   #-
     #icon: 'bi bi-youtube'
@@ -428,9 +445,9 @@ education:
   -
     icon: harvard.png
     school: Harvard University
-    degree: PhD Candidate in Computer Science
+    degree: PhD in Computer Science
     loc: Cambridge, MA
-    time: "2017 ~ now"
+    time: "2017 ~ 2023 &middot; 6 yrs"
     #&middot;
 
   -
@@ -451,7 +468,7 @@ education:
     icon: mit.jpg
     school: Massachusetts Institute of Technology
     degree: BS in Mechanical Engineering 
-    loc: Cambridge, MA 
+    loc: Cambridge, MA
     time: 2009 ~ 2013 &middot; 4 yrs
     #description: >-
       #GPA: 4.0/4.0
