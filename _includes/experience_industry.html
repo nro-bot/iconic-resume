@@ -1,0 +1,11 @@
+{% for item in site.data.my.industry_experience %}
+    {% include exp_entry.html 
+                        type = 'experience'
+                        icon = item.icon
+                        title = item.company
+                        subtitle = item.role
+                        description = item.description
+                        loc = item.loc
+                        time = item.time
+    %}
+{% endfor %}

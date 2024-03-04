@@ -66,8 +66,8 @@
 
 {% if site.data.my.experience %}
 <div class="section">
-    <h2>Research Experience</h2>
-    {% include experience.html %}
+        <h2>Research Experience</h2>
+    {% include experience_research.html %}
 </div>
 {% endif %}
 
@@ -78,9 +78,16 @@
     </div>
 {% endif %}
 
+{% if site.data.my.experience %}
+<div class="section">
+        <h2>Industry Experience</h2>
+    {% include experience_industry.html %}
+</div>
+{% endif %}
+
 {% if site.data.my.project %}
     <div class="section">
-        <h2>Projects</h2>
+        <h2>Startup</h2>
         {% include project.html %}
 
     </div>

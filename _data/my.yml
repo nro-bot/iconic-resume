@@ -1,8 +1,7 @@
 name: >-
   Rui Ouyang 
 byline: >-
-  Natural Language Processing Researcher <br>
-  with a background in robotics
+  Natural Language Processing & AI for Social Good Researcher <br>
 headline: >-
   For my PhD research, I applied <b>machine learning</b> models to 
   fight human trafficking. I love the creative side of engineering and research. I have <b>8+ years</b> of technical
@@ -32,7 +31,7 @@ experience:
       models to research the U.S. illicit massage industry (IMI).
       Collaborators include IBM Technology for
       Good, The Network Team, the Wisconsin Department of Justice, and
-      Traffik Analysis Hub (see Publications).
+      Traffik Analysis Hub.
 
   -
     icon: csail_wikipedia.png 
@@ -45,7 +44,7 @@ experience:
       Developed tactile sensor for buried objects. My work in electromechanical 
       prototyping and image-based object detection and shape recognition
       with <b>PyTorch</b> led to an MIT news article & second-author publication
-      in ISER 2020 (see Publications).
+      in ISER 2020.
 
   -
     icon: harvard_seas.jpg 
@@ -57,7 +56,7 @@ experience:
     description: >-
       Designed and characterized novel vision-based force sensor using
       arucoTags and <b>OpenCV</b>, leading to first-author publication in
-      ICRA 2020 (see Publications). The sensor software and hardware design
+      ICRA 2020. The sensor software and hardware design
       files are open-sourced.
 
 industry_experience:
@@ -106,7 +105,7 @@ industry_experience:
       Founded startup to expand access to robotics classes by combining
       online classes with low-cost hardware kits. Accepted into MIT Global
       Founders' Skills Acclerator. My <b>entrepreneurial and grant-writing skills</b>
-      led to >$45k in funding and sales in our first year. (see Projects).
+      led to >$45k in funding and sales in our first year.
 
   # -
     # icon: fitbit.jpg
@@ -190,7 +189,7 @@ publication:
       of thousands of dollars (e.g. some ATI sensors). The sensing
       component itself uses simple webcam and a printed paper tag, allowing
       for easy customization and use. Design files and code are
-      open-source (see website).
+      open-source.
 project:
 #-
   #icon: synthetic.jpg 
@@ -279,14 +278,15 @@ project:
 
   -
     icon: kickstarter_crop.jpg
-    name: 'Kickstarter: Creativity and Engineering'
+    name: 'NarwhalEdu: Creativity and Engineering'
     link: 
       - name: more details 
         url: 'https://ruiouyang.com/2013/05/NarwhalEdu-Kickstarter/'
     time: 2014
     description: |
-      Designed "Creativity in Engineering" class on EdX with drawing robot
-      arm kits. Ran sucessful Kickstarter campaign. Product
+      Founded an educational company, NarwhalEdu, to highlight the creative
+      side of engineering. Created "Creativity in Engineering" class on
+      EdX with a custom robot arm kit, achieving $20k of pre-orders. Product
       (contract-manufactured lasercut chassis kit) delivered
       on-time and on-budget to students around the world. 
 
@@ -325,61 +325,55 @@ contact:
 
 techstack: # <ML / Datasci
   -
-    icon: python.png
-    name: Python
-  -
-    icon: pytorch.png
-    name: PyTorch
-
-  -
-    icon: scikit-learn.png
-    name: scikit-learn 
-
-  -
-    icon: pandas.png 
-    name: Pandas 
-
-  -
-    icon: flask.png #flask_white.png 
-    name: Flask 
-  -
-    icon: matplotlib.png 
-    name: Matplotlib 
-  -
-    icon: altair.png 
     name: Altair 
+    icon: altair.png 
   -
-    icon: soup_icon.png #bs4_text.png
-    name: BeautifulSoup 
-  -
-    icon: scipy.png
-    name: Scipy 
-
-  - 
-    icon: nltk_blank.png #nltk.png
-    name: NLTK
-
-  - 
-    icon: spacy_blank.png
-    name: SpaCy
-
-  -
-    icon: sql.png #sqlite.jpg
-    name: SQLite
-
-  -
-    icon: linux.png
-    name: Linux 
-    link: 'https://github.com/'  
-
-  -
-    icon: bash.svg #bash.png
     name: Bash 
-    link: 
+    icon: bash.svg #bash.png
   -
+    name: BeautifulSoup 
+    icon: soup_icon.png #bs4_text.png
+  -
+    name: Flask 
+    icon: flask.png #flask_white.png 
+  -
+    name: <b>Git</b>
     icon: git.png
-    name: Git
     link: 'https://github.com/'  
+  -
+    name: Linux 
+    icon: linux.png
+  -
+    name: <b>Jupyter</b>
+    icon: jupyter.svg 
+  -
+    name: <b>Matplotlib</b>
+    icon: matplotlib.png 
+  - 
+    name: NLTK
+    icon: nltk_blank.png #nltk.png
+  -
+    name: <b>Python</b>
+    icon: python.png
+  -
+    name: <b>PyTorch</b>
+    icon: pytorch.png
+  -
+    name: <b>Pandas</b>
+    icon: pandas.png 
+  -
+    name: <b>scikit-learn </b>
+    icon: scikit-learn.png
+  -
+    name: Scipy 
+    icon: scipy.png
+  - 
+    name: SpaCy
+    icon: spacy_blank.png
+  -
+    name: SQLite
+    icon: sql.png #sqlite.jpg
+
 
 robotics_stack:
   -
