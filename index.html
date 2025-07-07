@@ -64,10 +64,74 @@
     {% include education.html %}
 </div>
 
+<div class="section">
+        <h2>Recent</h2>
+<div class="exp_entry experience"> 
+    <img src="/imgs/VA.jpg"}} "> 
+    <div class="exp_entry-items">
+        <div>
+            <span class="title">
+            Veterans Healthcare Administration
+            </span> 
+            <span class="loc">
+                <i class="bi bi-geo-alt"></i>
+                Boston, MA
+            </span>
+        </div>
+        <div>
+            <span class="subtitle">
+                Postdoctoral Fellow at the Boston Informatics Group</span> 
+            <span class="time">
+            2024 ~ now &middot; 0.5yrs
+            </span>
+        </div>
+        <div class="description">
+            <p>Developed Python pipelines for extracting features from
+            free-form clinical text in electronic health records for
+            applications ranging from updating prostate cancer screening
+            guidelines to predicting chronic post-amputation pain.</p>  
+        </div>  
+    </div>
+</div>
+
+<div class="exp_entry experience"> 
+    <img src="/imgs/engora.jpg"}} "> 
+    <div class="exp_entry-items">
+        <div>
+            <span class="title">
+            Engora
+            </span> 
+            <span class="loc">
+                <i class="bi bi-geo-alt"></i>
+                Boston, MA
+            </span>
+        </div>
+        <div>
+            <span class="subtitle">
+                Supply Chain Data Scientist</span> 
+            <span class="time">
+            2023 ~ 2024 &middot; 1 yr
+            </span>
+        </div>
+        <div class="description">
+            <p>I created datasets for a
+            retrieval-augmented generation system designed to accelerate
+            part sourcing for hardware engineers. Tasks included using semantic
+            search to deduplicate records and Textract to process PDFs.</p>
+        </div>  
+    </div>
+</div>
+
 {% if site.data.my.experience %}
 <div class="section">
         <h2>Research Experience</h2>
     {% include experience_research.html %}
+</div>
+{% endif %}
+{% if site.data.my.experience %}
+<div class="section">
+        <h2>Industry Experience</h2>
+    {% include experience_industry.html %}
 </div>
 {% endif %}
 
@@ -78,12 +142,6 @@
     </div>
 {% endif %}
 
-{% if site.data.my.experience %}
-<div class="section">
-        <h2>Industry Experience</h2>
-    {% include experience_industry.html %}
-</div>
-{% endif %}
 
 {% if site.data.my.project %}
     <div class="section">

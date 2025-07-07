@@ -1,12 +1,18 @@
 name: >-
-  Rui Ouyang 
+  Rui Ouyang, PhD
 byline: >-
-  Natural Language Processing & AI for Social Good Researcher <br>
+  Machine Learning Researcher & Data Scientist
 headline: >-
-  For my PhD research, I applied <b>machine learning</b> models to 
-  fight human trafficking. I love the creative side of engineering and research. I have <b>8+ years</b> of technical
-  expertise gained from applications ranging
-  from genomics to robotics and more. <br>
+  I have <b>8+ years</b> of
+  technical expertise gained from applications ranging from genomics to
+  robotics and more. 
+
+#  Currently, I develop natural language processing pipelines to research cancer
+#  screening guidelines at the Department of Veterans Affairs. For my PhD
+#  research, I applied machine learning and NLP algorithms to fight human
+#  trafficking. <br>
+#
+# Natural Language Processing & AI for Social Good Researcher <br>
 #, and as a startup founder I have a track record of getting things done.
 # Through expertise in wide-ranging fields from genomics to robotics and more. I grew up in Georgia (USA).
 #keypoints: >-
@@ -25,13 +31,11 @@ experience:
     company: MIT Sloan Applied Economics Group
     role: Trafficking in the Illicit Massage Industry
     loc: 
-    time: 2020 ~ now &middot; 2yrs
+    time: 2020 ~ 2023 3yrs
     description: >-
-      I trained <b>natural language processing</b> (NLP)
-      models to research the U.S. illicit massage industry (IMI).
-      Collaborators include IBM Technology for
-      Good, The Network Team, the Wisconsin Department of Justice, and
-      Traffik Analysis Hub.
+      I trained NLP models to research the U.S. illicit massage industry
+      (IMI).  Collaborators include IBM Technology for Good, The Network
+      Team, the Wisconsin Department of Justice, and Traffik Analysis Hub.
 
   -
     icon: csail_wikipedia.png 
@@ -41,10 +45,10 @@ experience:
     role: Touch Sensing for Robot Hands  
     time: 2020 &middot; 1yr
     description: >-
-      Developed tactile sensor for buried objects. My work in electromechanical 
-      prototyping and image-based object detection and shape recognition
-      with <b>PyTorch</b> led to an MIT news article & second-author publication
-      in ISER 2020.
+      Developed tactile sensor for buried objects. My work in
+      electromechanical prototyping and image-based object detection and
+      shape recognition with <b>PyTorch</b> led to an MIT news article &
+      second-author publication in ISER 2020.
 
   -
     icon: harvard_seas.jpg 
@@ -67,9 +71,9 @@ industry_experience:
     loc: Toronto, Canada (Remote)
     time: 2021 ~ 2022 &middot; 2yrs
     description: >- 
-      Designed <b>agent-based models</b> to generate synthetic data to benchmark
-      anomaly detection algorithms such as <b>Gaussian Mixture Models</b> used to flag transactional data and
-      accounts for counter-trafficking work.
+     Designed <b>agent-based models</b> to generate synthetic data to benchmark
+     anomaly detection algorithms such as <b>Gaussian Mixture Models</b> used to flag transactional data and
+     accounts for counter-trafficking work.
 
   #- 
     #icon: manylabs.png 
@@ -89,9 +93,8 @@ industry_experience:
     loc: Somerville, MA 
     time: 2014 ~ 2015  &middot; 1yr
     description: >-
-        Developed privacy-respecting <b>Python Flask</b> webapp to share genomic data in the Global Alliance for Genomics and Health (GA4GH). Designed Arvados
-        platform documentation with Boostrap CSS as part of Agile
-        team.
+        Developed privacy-respecting <b>Python Flask</b> webapp to share genomic data in the Global Alliance for Genomics and Health (GA4GH). 
+#Designed Arvados platform documentation with Boostrap CSS as part of Agile team.
 #as well as liased with the Global Alliance for Genomics and Health
 #(GA4GH) and Personal Genome Project (PGP).
 
@@ -128,7 +131,7 @@ industry_experience:
 publication:
   -
     icon: thumbnail_nlp_pipeline.png 
-    title: 'Machine Learning for Tangible Effects: Natural Language Processing for Uncovering the Illicit Massage Industry'
+    title: 'Natural Language Processing for Uncovering the Illicit Massage Industry'
     author: <b>Rui Ouyang</b>
     journal: Harvard Uni. Department of Computer Science, Doctoral Thesis
     year: 2023
@@ -143,11 +146,17 @@ publication:
        url: 'https://www.linkedin.com/feed/update/urn:li:activity:6924721539376398337/'
     time: 2021
     description: >- 
-      The United States illicit massage industry (IMI) is a multi-billion dollar industry. By creating datasets with three publicly-accessible websites, cominbed with NLP techniques such as bag-of-words and Word2Vec, I show how to derive insights into the labor pressures and language barriers that employees in the IMI face, as well as the income, demographics, and societal pressures affecting sex buyers. Committee: Profs. Roberto Rigobon, Finale Doshi-Velez, David Parkes.
+      The United States illicit massage industry (IMI) is a multi-billion
+      dollar industry located in all fifty states. My research applied NLP algorithms such as named entity
+      recognition and Word2Vec embeddings to novel datasets including
+      Google Places reviews and buyer forums in order to study the
+      labor pressures and language barriers that IMI employees face and the
+      demographics of sex buyers. Committee: Profs. Roberto
+      Rigobon, Finale Doshi-Velez, David Parkes.
 
     #icon: digger_finger_shapes.jpg
   -
-    icon: gelsight_digger_finger.jpg
+    icon: gelsight_digger_finger_smaller.jpg
     title: 'Digger Finger: GelSight Tactile Sensor for Object Identification Inside Granular Media'
     author: Radhen Patel, <b>Rui Ouyang</b>, Branden Romero, Edward Adelson 
     journal: International Symposium on Experimental Robotics (ISER) 
@@ -171,7 +180,7 @@ publication:
 #Gelsights are visual-tactile sensors used to give robots a sense of touch. 
 
   -
-    icon: fiducialforcesensor_larger.jpg
+    icon: fiducialforcesensor_smaller.jpg
     title: Low-Cost Fiducial-Based 6-Axis Force-Torque Sensor  
     author: <b>Rui Ouyang</b>, Robert Howe 
     journal: International Conference on Learning Representations (ICLR)
@@ -186,12 +195,12 @@ publication:
     description: >-
       A novel miniature six-axis force/torque sensor. The sensor is
       low-cost (<$50) compared to other sensors which can cost up to tens
-      of thousands of dollars (e.g. some ATI sensors). The sensing
-      component itself uses simple webcam and a printed paper tag, allowing
-      for easy customization and use. Design files and code are
-      open-source.
+      of thousands of dollars. Design files and code are open-source.
+#      The sensing
+#      component itself uses simple webcam and a printed paper tag, allowing
+#      for easy customization and use. 
 project:
-#-
+  #-
   #icon: synthetic.jpg 
   #name: Synthetic Banking Data for Counter-Trafficking 
   #time: 2022
@@ -250,27 +259,26 @@ project:
       #throwing (see video) with automated environment reset for
       #reinforcement learning experiments. Mentored two high-school summer
       #interns.  (Sponsored by Prof. Robert Platt at Northeastern Uni.)
-##For the latter,
-##a simple ballistics model is used to calculate initial throw
-##parameter (angle) and the residual term is learned from real-life
-##data. 
-#
-  #-
-    #icon: underactuated.jpg
-    #time: 2018
-    #name: '6.832 Underactuated Robotics: Inertia Wheel Inverted Pendulum'
-    #link: 
-      #- name: video
-        #url: 'https://nrobot.dev/images/underactuated.mp4'
-      #- name: final report
-        #url: 'https://nrobot.dev/pdfs/class_underactuated.pdf'
-    #description: |
-      #With Ashwin Krishna.
-      #We built (from scratch) an inverted pendulum system that uses a flywheel
-      #and angle sensor. I used bang-bang and proportional-derivative (PD)
-      #controls to swing up the pendulum and stabilize it. In simulation, we
-      #derived the equations of motion and
-      #apply (linear quadratic regulator) LQR controls to our system.  
+#For the latter,
+#a simple ballistics model is used to calculate initial throw
+#parameter (angle) and the residual term is learned from real-life
+#data. 
+  -
+    icon: underactuated.jpg
+    name: '6.832 Underactuated Robotics: Flywheel Inverted Pendulum'
+    time: 2018
+    link: 
+      - name: video
+        url: 'https://nrobot.dev/images/underactuated.mp4'
+      - name: final report
+        url: 'https://nrobot.dev/pdfs/class_underactuated.pdf'
+    description: |
+      With Ashwin Krishna.
+      We built (from scratch) an inverted pendulum that uses a flywheel
+      and angle sensor. I used bang-bang and proportional-derivative (PD)
+      controls to swing up the pendulum and stabilize it. In simulation, we
+      derived the equations of motion and
+      apply (linear quadratic regulator) LQR controls to our system.  
             
      #We also built a hardware system from scratch
      #and implement swingup and stabilization using PD and bang-bang control. 
@@ -299,8 +307,8 @@ contact:
     url: 'https://nrobot.dev'  
   -
     icon: 'bi bi-envelope'
-    name: nrobot@ <br>&nbsp;mit dot edu 
-    url: 'mailto:nrobot at mit dot edu'  
+    name: nouyang@ <br>&nbsp;alum.mit.edu
+    url: 'mailto:nouyang@alum.mit.edu'
   -
     icon: 'bi bi-linkedin'
     name: nrobot 
@@ -356,7 +364,7 @@ techstack: # <ML / Datasci
     name: <b>Python</b>
     icon: python.png
   -
-    name: <b>PyTorch</b>
+    name: PyTorch
     icon: pytorch.png
   -
     name: <b>Pandas</b>
@@ -376,35 +384,29 @@ techstack: # <ML / Datasci
 
 
 robotics_stack:
+  -  
+    icon: arduino.png
+    name: Arduino/<br>microcontrllers
+    link: asdf
+  -  
+    icon: diptrace.png
+    name: Diptrace (PCB Design)
   -
     icon: opencv.png 
     name: OpenCV
-
   -  
     icon: ros.png
     name: ROS 
     link: 
-
   -  
     icon: solidworks.jpg
     name: Solidworks
-    link: asdf
-  -  
-    icon: diptrace.png
-    name: Diptrace 
-
-
-  -  
-    icon: arduino.png
-    name: Arduino
-    link: asdf
-
-  -  
-    icon: laser_2.png
-    name: Lasercutter 
   -  
     icon: 3dprinter.png
     name: 3D Printer 
+  -  
+    icon: laser_2.png
+    name: Lasercutter 
   -  
     icon: mill_mcmaster.png
     name: Mill/Lathe 
@@ -416,21 +418,21 @@ creative_stack:
   -  
     icon: inkscape.png
     name: Inkscape (Vector Art)
+  -  
+    icon: jekyll.png
+    name: Jekyll
   -
     icon: lwks.png
     name: Lightworks (Video Editing)
   -  
     icon: wordpress.png
     name: Wordpress 
-  -  
-    icon: jekyll.png
-    name: Jekyll
 
 
 hobby:
   - ⛵ Sailing on the ocean
-  - 🎨 Watercoloring
-  - 📺 Vicarious hobbying (watching other people do hobbies on youtube) 
+  #- 🎨 Watercoloring
+  #- 📺 Vicarious hobbying (watching other people do hobbies on youtube) 
     #  - Robots
     # - Activism 
 
